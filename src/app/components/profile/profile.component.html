@@ -1,0 +1,11 @@
+<mat-icon
+  aria-hidden="false"
+  aria-label="Example home icon"
+  fontIcon="account_circle"
+  class="profile-icon"
+  (click)="toggleDropdown()"
+/>
+<div *ngIf="dropdown" id="profile-dropdown" class="profile-dropdown">
+  <a [href]="routes.profile"><h4>Profile</h4></a>
+  <a [href]="routes.index" (click)="logoutClick($event)"><h4>Logout</h4></a>
+</div>

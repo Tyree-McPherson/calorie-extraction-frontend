@@ -1,0 +1,10 @@
+.day-meal-container {
+  width: 100%;
+  max-width: 1264px;
+  margin: auto;
+  padding: 0 var(--spacingLarge);
+}
+
+mat-divider {
+  margin: var(--spacingSmall) 0;
+}

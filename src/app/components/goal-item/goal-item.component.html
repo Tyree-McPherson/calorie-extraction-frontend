@@ -1,0 +1,12 @@
+<div class="box-item">
+  <mat-icon fontSet="material-icons-round" aria-label="edit">
+    {{ icon }}
+  </mat-icon>
+  <h4>{{ description }}</h4>
+  <h5
+    [class]="percentage < 50 ? 'percent-red' :
+    percentage < 100 ? 'percent-orange' : 'percent-green'"
+  >
+    {{ percentage }}%
+  </h5>
+</div>

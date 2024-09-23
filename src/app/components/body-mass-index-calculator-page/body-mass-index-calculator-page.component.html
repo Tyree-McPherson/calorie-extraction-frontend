@@ -1,0 +1,67 @@
+<div class="skeleton">
+  <div class="container">
+    <div>
+      <h2>BMI Calculator</h2>
+      <p>
+        Your Body Mass Index (BMI) is an estimate of total body fat.
+        It is used to determine whether someone is at a healthy weight.
+      </p>
+    </div>
+    <div>
+      <div class="form-fields">
+        <app-form-field
+          label="Height"
+          [formSelectOptions]="false"
+          [error]="heightError"
+          type="text"
+          id="height-field"
+          [hint]="heightErrorText"
+          maxLength="3"
+          [(model)]="valueHeight"
+          [value]="valueHeight"
+        />
+        <app-form-field
+          label="Unit"
+          [formSelectOptions]="true"
+          [selectOptions]="['cm', 'inches']"
+          [error]="false"
+          type="text"
+          id="height-select-field"
+          [iconSuffix]="true"
+          [(model)]="valueHeightSelect"
+          [value]="valueHeightSelect"
+          (selectionChanged)="handleHeightUnitSelectionChange($event)"
+        />
+        <app-form-field
+          label="Weight"
+          [formSelectOptions]="false"
+          [error]="weightError"
+          type="text"
+          id="weight-field"
+          [hint]="weightErrorText"
+          maxLength="3"
+          [(model)]="valueWeight"
+          [value]="valueWeight"
+        />
+        <app-form-field
+          label="Unit"
+          [formSelectOptions]="true"
+          [selectOptions]="['lbs', 'kg']"
+          [error]="false"
+          type="text"
+          id="weight-select-field"
+          [(model)]="valueWeightSelect"
+          [value]="valueWeightSelect"
+          (selectionChanged)="handleWeightUnitSelectionChange($event)"
+        />
+      </div>
+      <div class="button">
+        <app-button text="Calculate" (click)="getBodyMassIndex()" />
+      </div>
+    </div>
+    <div class="body-mass-index-result">
+      <p>{{ bodyMassIndex }}</p>
+      <p [class]="bodyMassIndexColor">{{ bodyMassIndexConsideration }}</p>
+    </div>
+  </div>
+</div>

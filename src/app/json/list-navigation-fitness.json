@@ -1,0 +1,22 @@
+[
+  {
+    "text": "My Routine",
+    "link": "/my-routine"
+  },
+  {
+    "text": "My Goals",
+    "link": "/goals"
+  },
+  {
+    "text": "Workouts",
+    "link": "/workouts"
+  },
+  {
+    "text": "BMI Calculator",
+    "link": "/body-mass-index-calculator"
+  },
+  {
+    "text": "Calorie Loss Tracker",
+    "link": "/calorie-loss-tracker"
+  }
+]

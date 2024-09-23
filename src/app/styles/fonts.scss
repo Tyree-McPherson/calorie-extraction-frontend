@@ -1,0 +1,40 @@
+/* FONT WEIGHTS IN CORRELATION TO FONT FAMILY: */
+/* Light = 200. */
+/* Regular = 400. */
+/* Medium = 500. */
+/* Semi-Bold = 600. */
+/* Bold = 700. */
+
+/* Font family Hind. */
+@font-face {
+  font-family: hindLight;
+  src: url("../../assets/fonts/hind/Hind-Light.ttf");
+}
+@font-face {
+  font-family: hindRegular;
+  src: url("../../assets/fonts/hind/Hind-Regular.ttf");
+}
+@font-face {
+  font-family: hindSemiBold;
+  src: url("../../assets/fonts/hind/Hind-SemiBold.ttf");
+}
+
+/* Font family Inter. */
+@font-face {
+  font-family: interRegular;
+  src: url("../../assets/fonts/inter/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: interMedium;
+  src: url("../../assets/fonts/inter/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: interBold;
+  src: url("../../assets/fonts/inter/Inter-Bold.ttf");
+}
+
+/* Font family Montserrat. */
+@font-face {
+  font-family: montserratRegular;
+  src: url("../../assets/fonts/montserrat/Montserrat-Regular.ttf");
+}

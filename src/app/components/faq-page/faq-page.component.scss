@@ -1,0 +1,22 @@
+.faq-container {
+  width: 100%;
+  max-width: 1048px;
+  margin: auto;
+  padding: 0 var(--spacingMedium);
+
+  h2 {
+    margin: var(--spacingMedium) 0;
+  }
+}
+
+pre {
+  margin-bottom: var(--spacingMedium);
+  white-space: pre-wrap;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}

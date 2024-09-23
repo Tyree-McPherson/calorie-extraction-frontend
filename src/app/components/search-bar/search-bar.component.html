@@ -1,0 +1,17 @@
+<div class="search-bar-skeleton">
+  <app-form-field
+    label="Search"
+    [formSelectOptions]="false"
+    [error]="false"
+    icon="search"
+    type="text"
+    id="search-bar"
+    [iconSuffix]="true"
+    [(model)]="value"
+    [value]="value"
+    maxLength="40"
+    (keyup)="searchItem($event)"
+    (onIconClick)="iconClick()"
+    [iconClickable]="true"
+  />
+</div>

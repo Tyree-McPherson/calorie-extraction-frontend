@@ -1,0 +1,32 @@
+.profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile-dropdown {
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+    background-color: var(--colorWhite);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: var(--zIndexProfileDropdown);
+}
+
+.profile-dropdown a, h4 {
+    text-decoration: none;
+    color: var(--colorBlack);
+    font-size: var(--fontSizeMedium);
+    width: 100%;
+    text-align: center;
+}
+
+.profile-dropdown a:hover {
+    background-color: var(--colorGray);
+  }

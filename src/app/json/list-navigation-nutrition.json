@@ -1,0 +1,22 @@
+[
+  {
+    "text": "My Meal Plan",
+    "link": "/my-meal-plan"
+  },
+  {
+    "text": "Healthy Food",
+    "link": "/healthy-food"
+  },
+  {
+    "text": "Healthy Meals",
+    "link": "/healthy-meals"
+  },
+  {
+    "text": "Calorie Intake Tracker",
+    "link": "/calorie-intake-tracker"
+  },
+  {
+    "text": "Vitamins",
+    "link": "/vitamins"
+  }
+]

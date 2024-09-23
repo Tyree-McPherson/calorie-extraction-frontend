@@ -1,0 +1,12 @@
+<div class="container">
+  <ng-container *ngFor="let calorie of data">
+    <div>
+      <h3>{{ calorie?.weekday }}</h3>
+      <p>
+        {{ calorie?.calories }}
+        calories
+        {{ extracted ? "lost" : "gained" }}
+      </p>
+    </div>
+  </ng-container>
+</div>

@@ -1,0 +1,18 @@
+<a
+  *ngIf="url; else elseBlock"
+  [routerLink]="urlPath"
+  class="button-url"
+  mat-raised-button
+  color="primary"
+>
+  {{ text }}
+</a>
+<ng-template #elseBlock>
+  <button
+    mat-raised-button
+    [color]="inverted ? 'accent' : 'primary'"
+    (click)="click()"
+  >
+    {{ text }}
+  </button>
+</ng-template>

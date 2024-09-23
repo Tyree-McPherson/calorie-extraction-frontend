@@ -1,0 +1,51 @@
+.goals-skeleton {
+  width: 100%;
+  max-width: 1064px;
+  margin: auto;
+  padding: 0 var(--spacingLarge);
+
+  h2 {
+    font-weight: bold;
+    font-size: var(--fontSizeLarge);
+    margin: var(--spacingLarge) 0;
+  }
+}
+
+.add-goal {
+  background-color: inherit;
+  color: var(--colorNeutral);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 120px;
+
+  &:hover,
+  &:hover button {
+    color: var(--colorGreen);
+  }
+}
+
+.clear-goal:hover, .clear-goal:hover button {
+  color: var(--colorRed);
+}
+
+button {
+  margin-left: var(--spacingSmall);
+  background-color: inherit;
+  border: none;
+  color: var(--colorNeutral);
+  cursor: pointer;
+  font-family: interRegular;
+}
+
+.save-cancel-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: var(--spacingMedium);
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}

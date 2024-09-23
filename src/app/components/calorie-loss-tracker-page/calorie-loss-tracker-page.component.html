@@ -1,0 +1,34 @@
+<div class="calorie-loss-tracker-skeleton">
+  <h2>
+    You are projected to {{ projectedCaloriesGainLoss }}
+    {{ projectedCalories }}
+    calories on {{ weekday }}
+  </h2>
+  <div class="bmr-container">
+    <div>
+      <h3>Height</h3>
+      <p>{{ ((profileData?.height?.height || 0) + " cm") || "N/A" }}</p>
+    </div>
+    <div>
+      <h3>Weight</h3>
+      <p>{{ ((profileData?.weight?.weight || 0) + " lbs") || "N/A" }}</p>
+    </div>
+    <div>
+      <h3>Age</h3>
+      <p>{{ age || "N/A" }}</p>
+    </div>
+    <div>
+      <h3>Gender</h3>
+      <p>{{ profileData?.gender?.gender || "N/A" }}</p>
+    </div>
+    <mat-divider />
+    <p>
+      = {{ bmr }} calories burned per day based on your
+      <a href="/faq#what-does-basal-metabolic-rate-mean?">BMR</a>
+    </p>
+  </div>
+  <h2>My Routine calorie loss</h2>
+  <app-calorie-gain-loss [calories]="caloriesLost" [extracted]="true" />
+  <h2>My Meal Plan calorie gain</h2>
+  <app-calorie-gain-loss [calories]="caloriesGained" [extracted]="false" />
+</div>

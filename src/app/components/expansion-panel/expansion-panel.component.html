@@ -1,0 +1,22 @@
+<nav class="navigation">
+  <div class="navigation-heading" (click)="toggleDropdown()">
+    <h4>{{ heading }}</h4>
+    <mat-icon fontSet="material-icons-round" aria-label='dropdown'>
+      {{ dropdownActive ? 'keyboard_arrow_up' : 'keyboard_arrow_down' }}
+    </mat-icon>
+  </div>
+  <div
+    id="{{ heading }}"
+    class='dropdown-list clickElsewhere'
+    *ngIf="dropdownActive"
+    (clickElsewhere)="toggleDropdown()"
+  >
+    <ul>
+      <li *ngFor='let item of list'>
+        <a [routerLink]="item.link" (click)="toggleDropdown()">
+          {{ item.text }}
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,10 @@
+{
+  "myRoutine": "http://localhost:4200/my-routine",
+  "myGoals": "http://localhost:4200/goals",
+  "workouts": "http://localhost:4200/workouts",
+  "myMealPlan": "http://localhost:4200/my-meal-plan",
+  "bodyMassIndexCalculator": "http://localhost:4200/body-mass-index-calculator",
+  "healthyFood": "http://localhost:4200/healthy-food",
+  "calorieLossTracker": "http://localhost:4200/calorie-loss-tracker",
+  "calorieIntakeTracker": "http://localhost:4200/calorie-intake-tracker"
+}

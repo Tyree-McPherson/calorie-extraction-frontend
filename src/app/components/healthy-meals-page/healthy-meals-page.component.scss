@@ -1,0 +1,42 @@
+.healthy-meals-container {
+  width: 100%;
+  max-width: 764px;
+  margin: auto;
+  padding: 0 var(--spacingLarge);
+
+  h3 {
+    margin: 0;
+    margin-left: var(--spacingSmall);
+  }
+
+  h1 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin: var(--spacingSmall) 0;
+}
+
+button {
+  color: var(--colorRed) !important;
+}
+
+mat-divider {
+  margin: var(--spacingMedium) 0;
+}
+
+.yellow-stars {
+  color: var(--colorYellow);
+}
+
+.description {
+  margin: var(--spacingSmall) 0;
+}

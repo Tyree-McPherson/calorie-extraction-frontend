@@ -1,0 +1,110 @@
+{
+  "my_routine": {
+    "monday": {
+      "exercise_one": {
+        "type": null,
+        "description": null,
+        "duration": null,
+        "calories": null
+      },
+      "exercise_two": {
+        "type": null,
+        "description": null,
+        "duration": null,
+        "calories": null
+      },
+      "exercise_three": {
+        "type": null,
+        "description": null,
+        "duration": null,
+        "calories": null
+      },
+      "exercise_four": {
+        "type": null,
+        "description": null,
+        "duration": null,
+        "calories": null
+      }
+    }
+  },
+  "my_goals": {
+    "goal_one": {
+      "type": null,
+      "description": null,
+      "percentage": null
+    }
+  },
+  "my_meal_plan": {
+    "monday":{
+      "breakfast": {
+        "item_one": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_two": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_three": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        }
+      },
+      "lunch": {
+        "item_one": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_two": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_three": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        }
+      },
+      "dinner": {
+        "item_one": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_two": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        },
+        "item_three": {
+          "name": null,
+          "image": null,
+          "calories": null,
+          "servings": null,
+          "quantity": null
+        }
+      }
+    }
+  }
+}

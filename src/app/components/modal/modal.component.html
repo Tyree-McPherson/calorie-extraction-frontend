@@ -1,0 +1,22 @@
+<div id="modal" class="modal">
+  <div class="modal-window">
+    <div class="modal-heading">
+      <div></div>
+      <h2>{{ heading }}</h2>
+      <mat-icon
+        fontSet="material-icons-round"
+        aria-label='close'
+        (click)="clickAway()"
+      >
+        cancel
+      </mat-icon>
+    </div>
+    <p
+      [class]="errorMessage ? 'modal-error' : 'modal-success'"
+      id="modal-message"
+    >
+      {{ messageText }}
+    </p>
+    <ng-content></ng-content>
+  </div>
+</div>

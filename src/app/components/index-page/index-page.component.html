@@ -1,0 +1,99 @@
+<div class="index">
+  <section class="index-section-1">
+    <div class="black-background">
+      <div class="hero-message">
+        <h1>Maximize your body's calorie extraction</h1>
+        <app-button text="WORKOUTS" [url]="true" [urlPath]="urlWorkouts" />
+      </div>
+    </div>
+    <img
+      [src]="routePrefix + '/assets/images/maximize-calorie-extraction.png'"
+      alt="Strong person"
+      loading="lazy"
+    >
+    <div class="learn-more-container">
+      <mat-icon matSuffix>arrow_downward</mat-icon>
+      <p>LEARN MORE</p>
+      <mat-icon matSuffix>arrow_downward</mat-icon>
+    </div>
+  </section>
+  <section class="index-section-2">
+    <div class="section-2-content-container">
+      <img
+        [src]="routePrefix + '/assets/images/push-ups.png'"
+        alt="push-ups"
+        loading="lazy"
+      >
+      <div class="section-2-text-block">
+        <h1>Take workout optimization to the next level</h1>
+        <p>
+          Focus your energy into creating a a thorough workout routine to
+          maximize your calorie extraction. Optimize day-to-day operations
+          with curated expectations.
+        </p>
+        <app-button text="MY ROUTINE"></app-button>
+      </div>
+    </div>
+  </section>
+  <section class="index-section-3">
+    <h1>Do not forget about your wellbeing</h1>
+    <div class="wellbeing-container">
+      <app-image-text-overlay
+        text="Equipment"
+        image="/assets/images/workout-equipment.png"
+        [url]="urlEquipment"
+      />
+      <app-image-text-overlay
+        text="Yoga"
+        image="/assets/images/yoga-instructor.png"
+        [url]="urlYoga"
+      />
+      <app-image-text-overlay
+        text="Breathing Exercises"
+        image="/assets/images/breathing-exercise.jpg"
+        [url]="urlBreathingExercises"
+      />
+      <app-image-text-overlay
+        text="Massages"
+        image="/assets/images/hand-massage.jpg"
+        [url]="urlMassages"
+      />
+    </div>
+  </section>
+  <section class="index-section-4">
+    <h1>Strengthen your nutrition</h1>
+    <app-image-content-scroll
+      [nutritionContent]="nutritionContent"
+    />
+  </section>
+  <section class="index-section-5">
+    <div class="newsletter-container">
+      <h3>Subscribe to our newsletter</h3>
+      <app-input-field
+        label="Email"
+        placeholder="Email"
+        [maxLength]="30"
+        id="newsletter-email"
+        (keyup)="keyup($event)"
+        [bottomText]="newsletterEmailBottomText"
+        [bottomTextRed]="true"
+      />
+      <app-button
+        text="SUBSCRIBE"
+        (click)="subscribeToNewsletter()"
+      >
+      </app-button>
+    </div>
+    <img
+      [src]="routePrefix + '/assets/images/reading-newspaper.png'"
+      alt="Reading a newspaper"
+      class="reading-newspaper-image"
+      loading="lazy"
+    />
+  </section>
+  <app-alert
+    text="You have successfully subscribed"
+    class="success"
+    *ngIf="showAlert"
+  />
+</div>

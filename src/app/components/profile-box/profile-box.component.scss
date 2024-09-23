@@ -1,0 +1,37 @@
+.profile-box-container {
+  width: 500px;
+  height: 500px;
+  background-color: var(--colorGray);
+  border-radius: var(--borderRadiusMedium);
+  padding: var(--spacingMedium);
+
+  h2 {
+    text-align: center;
+    font-size: var(--fontSizeLarge);
+
+    a {
+      color: var(--colorBlack);
+    }
+  }
+}
+
+.profile-box-content {
+  overflow: auto;
+}
+
+@media (max-width: 67em) {
+  
+  .profile-box-container {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 28em) {
+  
+  .profile-box-container {
+    width: 300px;
+    margin-left: -3rem;
+  }
+}
+

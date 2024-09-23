@@ -1,0 +1,24 @@
+button {
+  font-family: interRegular;
+  font-size: var(--fontSizeMedium);
+}
+
+a {
+  font-family: interRegular;
+}
+
+.button-url {
+  height: 36px;
+  color: var(--colorWhite);
+}
+
+.mat-primary {
+  background-color: var(--colorRed) !important;
+  color: var(--colorWhite);
+}
+
+.mat-accent {
+  background-color: var(--colorWhite) !important;
+  color: var(--colorRed) !important;
+  border: 1px solid var(--colorRed) !important;
+}

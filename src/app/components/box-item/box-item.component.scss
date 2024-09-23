@@ -1,0 +1,16 @@
+.box-item {
+  width: 100%;
+  height: 48px;
+  display: grid;
+  grid-template-columns: 38px 1fr 28px;
+  align-items: center;
+  background-color: var(--colorWhite);
+  border-radius: var(--borderRadiusSmall);
+  padding: 0 var(--spacingSmall);
+  margin-bottom: var(--spacingMedium);
+}
+
+h4, h5 {
+  margin: 0;
+  font-weight: 400;
+}

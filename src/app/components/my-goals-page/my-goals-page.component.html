@@ -1,0 +1,112 @@
+<div class="goals-skeleton">
+  <h2>
+    {{ completedGoals }}/{{ totalGoals }} 
+    Goal{{ totalGoals === 1 ? '' : 's' }}
+    Completed
+  </h2>
+  <ng-container *ngIf="totalGoals">
+    <div *ngFor="let goal of goalData; let i = index">
+      <ng-container *ngIf="goal.type">
+        <app-goal-item
+          [icon]="goal.type"
+          [description]="goal.description"
+          [percentage]="goal.percentage"
+        />
+        <app-form-field
+          *ngIf="editExistingGoalIsActive && i === editGoalIndex"
+          label="Select Percentage"
+          [formSelectOptions]="true"
+          [selectOptions]="data[2].options"
+          [error]="false"
+          type="text"
+          id="three-step-form-field-edit-percentage"
+          [(model)]="value"
+          [value]="value"
+          (selectionChanged)="handlePercentageSelectionChange($event)"
+        />
+        <div class="save-cancel-container">
+          <ng-container
+            *ngIf="editExistingGoalIsActive &&
+              i === editGoalIndex; else noEdit"
+          >
+            <div class="add-goal" (click)="confirmNewGoal(i)">
+              <mat-icon>save</mat-icon>
+              <button>Save Goal</button>
+            </div>
+            <div
+              class="add-goal clear-goal flex-end"
+              (click)="discardChanges()"
+            >
+              <mat-icon>cancel</mat-icon>
+              <button>Discard</button>
+            </div>
+          </ng-container>
+          <ng-template #noEdit>
+            <ng-container
+              *ngIf="goal.percentage !== '100' &&
+                (!editExistingGoalIsActive || i === editGoalIndex);
+                else completed"
+            >
+              <div class="add-goal" (click)="editGoal(i)">
+                <mat-icon>edit</mat-icon>
+                <button>Edit Goal</button>
+              </div>
+            </ng-container>
+          </ng-template>
+          <ng-template #completed>
+            <div></div>
+          </ng-template>
+          <div
+            class="add-goal clear-goal flex-end"
+            (click)="removeGoal(i)"
+            *ngIf="!editExistingGoalIsActive"
+          >
+            <mat-icon>cancel</mat-icon>
+            <button>Clear Goal</button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </ng-container>
+  <app-form-field
+    *ngIf="editGoalIsActive"
+    [label]="data[step].type"
+    [formSelectOptions]="true"
+    [selectOptions]="data[step].options"
+    [error]="false"
+    [icon]="step !== 2 ? 'chevron_right' : ''"
+    type="text"
+    id="three-step-form-field"
+    [iconSuffix]="true"
+    [(model)]="value"
+    [value]="value"
+    (selectionChanged)="handleSelectionChange($event)"
+  />
+  <div
+    class="add-goal"
+    (click)="addGoal()"
+    *ngIf="totalGoals !== 5 && !editExistingGoalIsActive &&
+      !editGoalIsActive && (!useLocalGoalData || !goalData[0].type)"
+  >
+    <mat-icon>add_circle</mat-icon>
+    <button>Add Goal</button>
+  </div>
+  <div class="save-cancel-container" *ngIf="editGoalIsActive">
+    <div class="add-goal" (click)="confirmNewGoal(0)">
+      <mat-icon>save</mat-icon>
+      <button>Save Goal</button>
+    </div>
+    <div class="add-goal clear-goal flex-end" (click)="discardChanges()">
+      <mat-icon>cancel</mat-icon>
+      <button>Discard</button>
+    </div>
+  </div>
+  <p class="text-center" *ngIf="useLocalGoalData && goalData[0].type">
+    Login to add more goals
+  </p>
+</div>
+<app-alert
+  [text]="alertText"
+  class="failure"
+  *ngIf="showAlert"
+/>

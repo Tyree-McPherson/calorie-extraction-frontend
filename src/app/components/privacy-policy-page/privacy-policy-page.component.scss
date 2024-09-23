@@ -1,0 +1,9 @@
+.privacy-policy-container {
+  padding: var(--spacingLarge);
+  max-width: 1000px;
+  margin: auto;
+
+  ul, ol {
+    padding-left: var(--spacingLarge);
+  }
+}

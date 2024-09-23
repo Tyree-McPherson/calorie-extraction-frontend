@@ -1,0 +1,7 @@
+<a [routerLink]="url">
+  <div class="image-text-overlay-container">
+    <div class="dark-image-overlay"></div>
+    <h3 class="image-overlay-text">{{ text }}</h3>
+    <img [src]="routePrefix + image" [alt]="text" loading="lazy">
+  </div>
+</a>

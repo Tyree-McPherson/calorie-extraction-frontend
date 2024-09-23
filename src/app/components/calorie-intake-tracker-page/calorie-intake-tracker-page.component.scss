@@ -1,0 +1,17 @@
+.calorie-intake-tracker-skeleton {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+
+  h2 {
+    font-weight: bold;
+    margin: var(--spacingSmall) 0;
+  }
+}
+
+/* 1050px. */
+@media (max-width: 65.625em) {
+  .calorie-intake-tracker-skeleton {
+    padding: 0 var(--spacingMedium);
+  }
+}

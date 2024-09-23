@@ -1,0 +1,52 @@
+{
+  "types": [
+    "Exercise",
+    "Stretch",
+    "Rest"
+  ],
+  "descriptions": {
+    "exercise": [
+      "Push-Ups",
+      "Pull-Ups",
+      "Squats",
+      "Lunges",
+      "Calf Raises",
+      "Plank",
+      "Jumping Jacks",
+      "Skipping",
+      "Dips",
+      "Crunches",
+      "Bicep Curls",
+      "Tricep Curls",
+      "Leg Raises",
+      "Speed Walking",
+      "Running",
+      "Cycling",
+      "Swimming"
+    ],
+    "stretch": [
+      "Upper Body Stretch",
+      "Lower Body Stretch",
+      "Core Stretch",
+      "Full Body Stretch"
+    ],
+    "rest": [
+      "Standing Rest",
+      "Sitting Rest",
+      "Lying Down Rest",
+      "Crouching Rest",
+      "Prone Rest",
+      "Walking"
+    ]
+  },
+  "durations": [
+    "2m",
+    "5m",
+    "10m",
+    "15m",
+    "20m",
+    "25m",
+    "30m",
+    "45m"
+  ]
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "image": "/assets/images/healthy-meals/sage-rubbed-salmon.jpg",
+    "imageAlt": "A frying pan of sage rubbed salmon",
+    "title": "Sage-Rubbed Salmon",
+    "mealPreparation": 20,
+    "servings": 6,
+    "calories": 220,
+    "stars": 5,
+    "description": "The Sage-Rubbed Salmon recipe from Taste of Home is a quick and flavorful dish where salmon fillets are seasoned with a blend of fresh sage, garlic powder, salt, and pepper. The fillets are seared in a cast-iron skillet and then baked in the oven until flaky. This dish is simple to prepare, with a total cook time of 20 minutes, and provides a healthy meal option with only 220 calories per serving. It's a versatile recipe that pairs well with rice, salad, and sautéed green beans.",
+    "link": "https://www.tasteofhome.com/recipes/sage-rubbed-salmon/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/grilled-buttermilk-chicken.jpg",
+    "imageAlt": "A plate of Grilled Buttermilk Chicken",
+    "title": "Grilled Buttermilk Chicken",
+    "mealPreparation": 20,
+    "servings": 12,
+    "calories": 189,
+    "stars": 4,
+    "description": "The Taste of Home recipe for Grilled Buttermilk Chicken involves marinating boneless, skinless chicken breasts in a mixture of buttermilk, thyme, garlic, and salt for at least 8 hours or overnight. After marinating, the chicken is grilled for 5-7 minutes on each side until fully cooked. This method ensures moist and flavorful chicken. The recipe serves 12 and is a simple, yet tasty option for a grilled meal.",
+    "link": "https://www.tasteofhome.com/recipes/grilled-buttermilk-chicken/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/shredded-kale-and-brussels-sprouts-salad.jpg",
+    "imageAlt": "A bowl of shredded kale and Brussels sprouts salad",
+    "title": "Shredded Kale and Brussels Sprouts Salad",
+    "mealPreparation": 15,
+    "servings": 6,
+    "calories": 207,
+    "stars": 5,
+    "description": "The Taste of Home recipe for Shredded Kale and Brussels Sprouts Salad combines thinly sliced kale and Brussels sprouts with coarsely chopped pistachios, shredded Parmesan cheese, and honey mustard dressing. The salad, which can be prepared in 15 minutes, gets even better after sitting in the fridge for a while. It's a simple, healthy option that serves 6. For variations, you can use baby kale or add ripe pear for extra flavor.",
+    "link": "https://www.tasteofhome.com/recipes/shredded-kale-and-brussels-sprouts-salad/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/spicy-plum-salmon.jpg",
+    "imageAlt": "Spicy Plum Salmon and some greens",
+    "title": "Spicy Plum Salmon",
+    "mealPreparation": 35,
+    "servings": 6,
+    "calories": 325,
+    "stars": 3,
+    "description": "This dish features salmon fillets baked in a tangy, sweet, and spicy sauce made from plum preserves, soy sauce, ginger, and red pepper flakes. The sauce complements the rich flavor of the salmon, creating a dish that is both elegant and easy to prepare. The fillets are first brushed with the sauce, then baked to perfection, resulting in a moist and flavorful main course that pairs well with rice or vegetables.",
+    "link": "https://www.tasteofhome.com/recipes/spicy-plum-salmon/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/jicama-citrus-salad.jpg",
+    "imageAlt": "Jicama Citrus Salad in a transparent bowl",
+    "title": "Jicama Citrus Salad",
+    "mealPreparation": 15,
+    "servings": 10,
+    "calories": 76,
+    "stars": 5,
+    "description": "This salad is a vibrant mix of textures and flavors, combining the crispness of jicama with the juiciness of citrus fruits like oranges and grapefruits. Avocado adds creaminess, while a honey-lime dressing ties everything together with a sweet-tart balance. It's a refreshing and healthy option that's perfect for a light lunch or as a side dish for grilled meats. The salad's bright colors and fresh ingredients make it visually appealing as well as delicious.",
+    "link": "https://www.tasteofhome.com/recipes/jicama-citrus-salad/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/garden-fresh-rainbow-chard.jpg",
+    "imageAlt": "A bowl of garden fresh rainbow chard",
+    "title": "Garden Fresh Rainbow Chard",
+    "mealPreparation": 20,
+    "servings": 4,
+    "calories": 115,
+    "stars": 5,
+    "description": "This recipe highlights the natural beauty and flavor of rainbow chard, a leafy green vegetable with colorful stems. The chard is sautéed with onions and garlic, then seasoned with red pepper flakes for a bit of heat. A splash of vinegar at the end brightens the dish, balancing the earthiness of the chard. This simple preparation allows the vegetable's vibrant colors and flavors to shine, making it a nutritious and eye-catching side dish.",
+    "link": "https://www.tasteofhome.com/recipes/garden-fresh-rainbow-chard/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/lemony-zucchini-ribbons.jpg",
+    "imageAlt": "Lemony Zucchini Ribbons and a fork",
+    "title": "Lemony Zucchini Ribbons",
+    "mealPreparation": 15,
+    "servings": 4,
+    "calories": 83,
+    "stars": 3,
+    "description": "Thin strips of zucchini are the star of this dish, which is light, fresh, and full of flavor. The zucchini is tossed with a lemon-based dressing that includes Parmesan cheese and fresh herbs, creating a refreshing side dish that pairs well with grilled meats or fish. The ribbons are easy to make using a vegetable peeler, and the dish comes together quickly, making it a great option for busy weeknights or summer meals.",
+    "link": "https://www.tasteofhome.com/recipes/lemony-zucchini-ribbons/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/breakfast-sweet-potatoes.jpg",
+    "imageAlt": "A plate of breakfast sweet potatoes",
+    "title": "Breakfast Sweet Potatoes",
+    "mealPreparation": 55,
+    "servings": 4,
+    "calories": 321,
+    "stars": 5,
+    "description": "This recipe turns sweet potatoes into a hearty breakfast option by roasting them until tender, then topping them with Greek yogurt, pecans, and a drizzle of maple syrup. The combination of sweet, creamy, and crunchy textures makes this dish satisfying and nutritious. It's a versatile recipe that can be adjusted with different toppings like nut butter, fruit, or granola, and it’s a great way to start the day with a filling and healthy meal.",
+    "link": "https://www.tasteofhome.com/recipes/breakfast-sweet-potatoes/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/asparagus-nicoise-salad.jpg",
+    "imageAlt": "Tuna Nicoise Salad",
+    "title": "Tuna Nicoise Salad",
+    "mealPreparation": 25,
+    "servings": 4,
+    "calories": 327,
+    "stars": 4,
+    "description": "This version of the classic French salad is a quick and convenient meal, perfect for lunch or a light dinner. It includes tuna, hard-boiled eggs, tomatoes, green beans, and olives, all tossed in a simple vinaigrette. The salad is packed with protein and healthy fats, making it both satisfying and nutritious. It's also a great make-ahead option, as the flavors improve when it sits for a while, allowing the vinaigrette to meld with the other ingredients.",
+    "link": "https://www.tasteofhome.com/recipes/quick-nicoise-salad/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/crab-phyllo-cups.jpg",
+    "imageAlt": "A tray of crab phyllo cups",
+    "title": "Crab Phyllo Cups",
+    "mealPreparation": 20,
+    "servings": 6,
+    "calories": 34,
+    "stars": 5,
+    "description": "These elegant appetizers feature a creamy crab mixture made with cream cheese, mayonnaise, Dijon mustard, and fresh herbs, all baked in crispy phyllo cups. The combination of the rich, savory filling and the light, flaky pastry makes these bites a perfect starter for a dinner party or holiday gathering. They’re easy to prepare and can be made ahead of time, making them a convenient and impressive addition to any menu.",
+    "link": "https://www.tasteofhome.com/recipes/crab-phyllo-cups/"
+  },
+  {
+    "image": "/assets/images/healthy-meals/saucy-raspberry-chicken.jpg",
+    "imageAlt": "A tray of saucy raspberry chicken",
+    "title": "Saucy Raspberry Chicken",
+    "mealPreparation": 20,
+    "servings": 5,
+    "calories": 337,
+    "stars": 4,
+    "description": "In this dish, chicken breasts are cooked with a homemade raspberry sauce that’s both sweet and tangy. The sauce is made with fresh raspberries, vinegar, honey, and Dijon mustard, creating a flavorful contrast to the savory chicken. The dish is easy to prepare and offers a unique twist on classic chicken recipes, making it suitable for both weeknight dinners and special occasions. The vibrant raspberry sauce also adds a pop of color to the plate.",
+    "link": "https://www.tasteofhome.com/recipes/saucy-raspberry-chicken/"
+  }
+]

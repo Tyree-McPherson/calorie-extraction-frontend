@@ -1,0 +1,36 @@
+<div
+  class="day-meal-container"
+  *ngFor="let meal of myMealPlanData; last as isLast"
+>
+  <h1>{{ meal.weekday }}</h1>
+  <ng-container *ngIf="hasMealWithName(meal); else noMeals">
+    <!-- Loop through each meal of the day. -->
+    <ng-container *ngFor="let dayMeal of meal.meals">
+      <!-- Only show meals that have at least one item. -->
+      <div *ngIf="dayMeal.data[0].name">
+        <h2>{{ dayMeal.name }}</h2>
+        <app-grid itemWidth="350">
+          <!-- Only show meal items that have been added. -->
+          <ng-container *ngFor="let mealItem of dayMeal.data; let i = index">
+            <app-card
+            *ngIf="mealItem.name"
+            [image]="mealItem.image"
+            [imageAlt]="mealItem.name"
+            [title]="mealItem.name"
+            [description]="mealItem.servings"
+            [subText]="mealItem.quantity + ' servings'"
+            [subSubText]="mealItem.calories + ' calories total'"
+            buttonText="REMOVE"
+            (buttonClicked)="removeItem(meal.weekday, dayMeal.name, i)"
+            />
+          </ng-container>
+        </app-grid>
+      </div>
+    </ng-container>
+  </ng-container>
+  <ng-template #noMeals>
+    <p>No meal plan on {{ meal.weekday }}</p>
+  </ng-template>
+  <mat-divider *ngIf="!isLast" />
+  <p class="text-center">Login to add a meal plan for all weekdays</p>
+</div>

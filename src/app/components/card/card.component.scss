@@ -1,0 +1,25 @@
+.card-container {
+  width: 350px;
+  height: 480px;
+
+  img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+button {
+  color: var(--colorRed) !important;
+}
+
+mat-card-actions {
+  margin-top: auto;
+}
+
+/* 700px. */
+@media (max-width: 43.75em) {
+  .card-container {
+    width: 250px;
+  }
+}

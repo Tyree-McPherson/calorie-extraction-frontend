@@ -1,0 +1,38 @@
+html {
+  --colorGray: hsl(0, 0%, 88%);
+  --colorBlack: hsl(0, 0%, 0%);
+  --colorWhite: hsl(0, 0%, 100%);
+  --colorOrange: hsl(26, 100%, 31%);
+  --colorRed: hsl(352, 100%, 38%);
+  --colorError: hsl(0, 75%, 42%);
+  --colorNeutral: hsl(195, 2%, 56%); /* Background and surfaces */
+  --colorNeutralVariant: hsl(191, 5%, 56%);
+  --colorOnSurfaceVariant: hsl(191, 0%, 27%); /* Grayscale */
+  --colorGreen: hsl(97, 54%, 28%);
+  --colorModalBackground: rgba(0, 0, 0, 0.30);
+  --colorBreathingHeadingBackground: hsl(186, 100%, 23%);
+  --colorYellow: hsl(51, 100%, 50%);
+
+  --spacingSmall: 0.5rem;
+  --spacingMedium: 1.5rem;
+  --spacingLarge: 2rem;
+  --spacingExtraLarge: 4rem;
+  --spacingExtraExtraLarge: 8rem;
+
+  --borderRadiusTiny: 2px;
+  --borderRadiusSmall: 5px;
+  --borderRadiusMedium: 10px;
+  
+  --fontSizeSmall: 0.8rem;
+  --fontSizeMedium: 1rem;
+  --fontSizeSlightlyLarge: 1.5rem;
+  --fontSizeLarge: 2rem;
+  --fontSizeExtraLarge: 4rem;
+
+  --zIndexHeader: 10;
+  --zIndexHeaderDropdown: 20;
+  --zIndexHeaderDropdown: 40;
+  --zIndexProfileDropdown: 50;
+  --zIndexModal: 100;
+  --zIndexAlert: 110;
+}

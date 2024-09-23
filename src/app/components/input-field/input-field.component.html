@@ -1,0 +1,26 @@
+<div class="input-field-container">
+  <input
+    class="input-field"
+    [type]="passwordVisible ? 'text' : type"
+    [autofocus]="autofocus"
+    [disabled]="disabled"
+    [maxLength]="maxLength"
+    [name]="name"
+    [placeholder]="placeholder"
+    [value]="value"
+    [id]="id"
+    (onkeyup)="keyup($event)"
+  />
+  <div (click)="iconClick()" class="icon-container">
+    <mat-icon
+      matSuffix
+      *ngIf="icon"
+      class="pointer"
+      >
+      {{ passwordVisible ? 'visibility_off' : icon }}
+    </mat-icon>
+  </div>
+  <p [class]="'bottom-text' + (bottomTextRed ? ' bottom-text-red' : '')">
+    {{ bottomText }}
+  </p>
+</div>

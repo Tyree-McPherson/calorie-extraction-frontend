@@ -1,0 +1,56 @@
+<div class="image-scroll-container">
+  <div class="image-gallery">
+    <div class="side-image-container">
+      <img
+        *ngIf="currentItem - 1 >= 0"
+        id="image-gallery-previous"
+        class="image-preview"
+        loading="lazy"
+        [src]="routePrefix + nutritionContent[currentItem - 1].image"
+        [alt]="nutritionContent[currentItem - 1].heading"
+      />
+    </div>
+    <div class="image-gallery-main-image-container">
+      <div
+        class="another-image-container image-previous"
+        (click)="changeItem(false)"
+        *ngIf="currentItem !== 0"
+      >
+        <mat-icon matSuffix>keyboard_arrow_left</mat-icon>
+      </div>
+      <img
+        id="image-gallery-main-image"
+        class="image-gallery-main-image"
+        loading="lazy"
+        [src]="routePrefix + nutritionContent[currentItem].image"
+        [alt]="nutritionContent[currentItem].heading"
+      />
+      <div
+        class="another-image-container image-next"
+        (click)="changeItem(true)"
+        *ngIf="currentItem !== 4"
+      >
+        <mat-icon matSuffix>keyboard_arrow_right</mat-icon>
+      </div>
+    </div>
+    <div class="side-image-container">
+      <img
+        *ngIf="currentItem + 1 <= 4"
+        id="image-gallery-next"
+        class="image-preview"
+        loading="lazy"
+        [src]="routePrefix + nutritionContent[currentItem + 1].image"
+        [alt]="nutritionContent[currentItem + 1].heading"
+      />
+    </div>
+  </div>
+  <div class="image-text-container">
+    <h3>{{ nutritionContent[currentItem].heading }}</h3>
+    <p>{{ nutritionContent[currentItem].paragraph }}</p>
+    <app-button
+      [text]="nutritionContent[currentItem].buttonText"
+      [url]="true"
+      [urlPath]="nutritionContent[currentItem].buttonUrl"
+    />
+  </div>
+</div>

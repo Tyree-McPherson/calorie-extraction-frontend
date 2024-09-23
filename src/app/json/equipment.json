@@ -1,0 +1,274 @@
+[
+  {
+    "image": "/assets/images/equipment/treadmill.jpg",
+    "imageAlt": "A treadmill",
+    "title": "Treadmill",
+    "description": "A versatile machine for running or walking indoors. Adjustable speeds and inclines.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=treadmill&crid=20X9EM3NT5ACO&sprefix=treadmill%2Caps%2C109&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/dumbbells.jpg",
+    "imageAlt": "Two dumbbells",
+    "title": "Dumbbells",
+    "description": "A pair of free weights ideal for strength training. Various weights available.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=dumbbells&crid=M06FFT9NJOR5&sprefix=dumbbells%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/yoga-mat.jpg",
+    "imageAlt": "Several yoga mats",
+    "title": "Yoga Mat",
+    "description": "A comfortable and non-slip mat for yoga and other floor exercises.",
+    "type": "Mats & Pads",
+    "link": "https://www.amazon.ca/s?k=yoga+mat&crid=U5QQQZWSCCKZ&sprefix=yoga+mat%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/kettleball.jpg",
+    "imageAlt": "A lot of kettlebells",
+    "title": "Kettlebell",
+    "description": "A weight with a handle for full-body workouts. Great for swings and squats.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=kettlebell&crid=POVT82JDWLLY&sprefix=kettlebell%2Caps%2C91&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/stationary-bike.jpg",
+    "imageAlt": "A stationary bike",
+    "title": "Stationary Bike",
+    "description": "An indoor bike for cardio workouts. Adjustable resistance and seat height.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=stationary+bike&crid=V4XU1S0LHNS6&sprefix=stationary+bike%2Caps%2C86&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/resistance-bands.jpg",
+    "imageAlt": "Resistance bands on the floor",
+    "title": "Resistance Bands",
+    "description": "Elastic bands for strength training and rehabilitation. Comes in different resistance levels.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=resistance+bands&crid=3G3AYS3OTRCXB&sprefix=resisten%2Caps%2C86&ref=nb_sb_ss_ts-doa-p_1_8"
+  },
+  {
+    "image": "/assets/images/equipment/rowing-machine.jpg",
+    "imageAlt": "People using a rowing machine",
+    "title": "Rowing Machine",
+    "description": "A machine that simulates rowing for a full-body workout. Adjustable resistance.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=rowing+machine&crid=3HXT4W9ZMW3UM&sprefix=rowing%2Caps%2C89&ref=nb_sb_ss_ts-doa-p_1_6"
+  },
+  {
+    "image": "/assets/images/equipment/medicine-ball.jpg",
+    "imageAlt": "A medicine ball being thrown down",
+    "title": "Medicine Ball",
+    "description": "A weighted ball used for strength training and coordination exercises.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=medicine+ball&crid=TB3N1FBSWJQ9&sprefix=medici%2Caps%2C93&ref=nb_sb_ss_ts-doa-p_ci_hit-vc-hl-left_1_6"
+  },
+  {
+    "image": "/assets/images/equipment/foam-roller.jpg",
+    "imageAlt": "A foam roller",
+    "title": "Foam Roller",
+    "description": "A cylindrical foam tool for muscle recovery and massage. Helps relieve tension.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=foam+roller&crid=6HYET0AD8L3F&sprefix=fo%2Caps%2C86&ref=nb_sb_ss_ts-doa-p_1_2"
+  },
+  {
+    "image": "/assets/images/equipment/elliptical-machine.jpg",
+    "imageAlt": "An elliptical machine",
+    "title": "Elliptical Machine",
+    "description": "A machine for low-impact cardio workouts. Combines the motions of running and climbing.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=elliptical+machine&crid=3GDZP5R2VHR4F&sprefix=elliptical+machine%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/weight-bench.jpg",
+    "imageAlt": "A weight bench",
+    "title": "Weight Bench",
+    "description": "A sturdy bench for weight lifting. Adjustable for different exercises.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=weight+bench&crid=3IIHU13FFK2FM&sprefix=weight+bench%2Caps%2C86&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/pull-up-bar.jpg",
+    "imageAlt": "A person using a pull-up bar",
+    "title": "Pull-Up Bar",
+    "description": "A bar for performing pull-ups and chin-ups. Can be mounted in doorways.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=pull+up+bar&crid=7RBCF1GX8UAI&sprefix=pull%2Caps%2C92&ref=nb_sb_ss_ts-doa-p_1_4"
+  },
+  {
+    "image": "/assets/images/equipment/exercise-ball.jpg",
+    "imageAlt": "Someone on an exercise ball",
+    "title": "Exercise Ball",
+    "description": "A large inflatable ball for stability and core exercises. Various sizes available.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=exercise+ball&crid=26LH87AYAYOJX&sprefix=exercise+ball%2Caps%2C95&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/jump-rope.jpg",
+    "imageAlt": "Jump rope",
+    "title": "Jump Rope",
+    "description": "A simple tool for cardio workouts. Adjustable length and comfortable handles.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=jump+rope&crid=3ND9WP9O14BF2&sprefix=jump+%2Caps%2C99&ref=nb_sb_ss_ts-doa-p_1_5"
+  },
+  {
+    "image": "/assets/images/equipment/ab-roller.webp",
+    "imageAlt": "A person using an ab roller",
+    "title": "Ab Roller",
+    "description": "A wheel with handles for ab exercises. Helps strengthen the core.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=ab+roller&crid=3UPC5H7WN2PLH&sprefix=ab+roller%2Caps%2C90&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/punching-bag.jpg",
+    "imageAlt": "A punching bag",
+    "title": "Punching Bag",
+    "description": "A heavy bag for boxing and martial arts training. Durable and sturdy.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=punching+bag&crid=2VF9Y69WKC4DL&sprefix=pun%2Caps%2C84&ref=nb_sb_ss_ts-doa-p_1_3"
+  },
+  {
+    "image": "/assets/images/equipment/power-tower.jpg",
+    "imageAlt": "A power tower",
+    "title": "Power Tower",
+    "description": "A multi-functional piece of equipment for pull-ups, dips, and leg raises.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=power+tower&crid=3FL7K0Q9ZCD1Q&sprefix=power+t%2Caps%2C87&ref=nb_sb_ss_ts-doa-p_ci_hit-vc-hl-left_1_7"
+  },
+  {
+    "image": "/assets/images/equipment/battle-ropes.jpg",
+    "imageAlt": "Someone using battle ropes",
+    "title": "Battle Ropes",
+    "description": "Heavy ropes for high-intensity interval training. Builds strength and endurance.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=battle+ropes&crid=1AKO67XWW2EIJ&sprefix=battle%2Caps%2C96&ref=nb_sb_ss_ts-doa-p_1_6"
+  },
+  {
+    "image": "/assets/images/equipment/squat-rack.jpg",
+    "imageAlt": "A set of squat racks",
+    "title": "Squat Rack",
+    "description": "A sturdy rack for squats and other weight lifting exercises. Adjustable height.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=squat+rack&crid=9ZRS390ZNWN3&sprefix=squa%2Caps%2C93&ref=nb_sb_ss_ts-doa-p_ci_hit-vc-hl-left_1_4"
+  },
+  {
+    "image": "/assets/images/equipment/barbell.jpg",
+    "imageAlt": "Barbells staked together",
+    "title": "Barbell",
+    "description": "A long bar used with weight plates for various strength training exercises.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=barbell&crid=1IAX2HY9L7HDP&sprefix=barb%2Caps%2C103&ref=nb_sb_ss_ts-doa-p_1_4"
+  },
+  {
+    "image": "/assets/images/equipment/adjustable-dumbbells.jpg",
+    "imageAlt": "A set of adjustable dumbbells",
+    "title": "Adjustable Dumbbells",
+    "description": "Dumbbells with adjustable weights for versatile strength training.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=adjustable+dumbbells&crid=14GKMI2WLDDEI&sprefix=adjust%2Caps%2C91&ref=nb_sb_ss_ts-doa-p_1_6"
+  },
+  {
+    "image": "/assets/images/equipment/lat-pulldown-machine.jpg",
+    "imageAlt": "Someone using a lat pulldown machine",
+    "title": "Lat Pulldown Machine",
+    "description": "A machine for upper body strength training. Targets the back and shoulders.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=lat+pulldown+machine&crid=ALBQAQ2ULPB&sprefix=lat+pulldown+machine%2Caps%2C85&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/leg-press-machine.jpg",
+    "imageAlt": "A leg press machine being used",
+    "title": "Leg Press Machine",
+    "description": "A machine for leg strength training. Adjustable resistance for different levels.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=leg+press+machine&crid=1OD114CUE3IWH&sprefix=leg+press+machine%2Caps%2C84&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/smith-machine.webp",
+    "imageAlt": "A smith machine",
+    "title": "Smith Machine",
+    "description": "A guided barbell system for weight lifting. Provides stability and safety.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=smith+machine&crid=32I4IOTNIHP1J&sprefix=smith%2Caps%2C91&ref=nb_sb_ss_ts-doa-p_1_5"
+  },
+  {
+    "image": "/assets/images/equipment/stepper.jpg",
+    "imageAlt": "A stepper",
+    "title": "Stepper",
+    "description": "A compact machine for step workouts. Adjustable resistance levels.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=stepper&crid=H4ADTNETHZXS&sprefix=steppe%2Caps%2C89&ref=nb_sb_noss_2"
+  },
+  {
+    "image": "/assets/images/equipment/sandbag.jpg",
+    "imageAlt": "Someone holding up a sandbag",
+    "title": "Sandbag",
+    "description": "A versatile tool for strength and endurance training. Adjustable weight.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=sandbag+fitness&crid=18ZFHWGP7KXSP&sprefix=sandbag%2Caps%2C80&ref=nb_sb_ss_ts-doa-p_2_7"
+  },
+  {
+    "image": "/assets/images/equipment/trx-suspension-trainer.jpg",
+    "imageAlt": "Someone using a TRX suspension trainer",
+    "title": "TRX Suspension Trainer",
+    "description": "A suspension training system for full-body workouts. Portable and easy to use.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=trx+suspension+trainer&crid=3V5VSUS39ZHYU&sprefix=trx+suspension+trainer%2Caps%2C82&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/bosu-ball.jpg",
+    "imageAlt": "A bosu ball on grass",
+    "title": "Bosu Ball",
+    "description": "A half exercise ball for balance training and core workouts. Can be used both sides.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=bosu+ball&crid=260IHZW7WX4F3&sprefix=bosu+ball%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/ankle-weights.jpg",
+    "imageAlt": "Ankle weights",
+    "title": "Ankle Weights",
+    "description": "Weights that strap around the ankles for added resistance during workouts.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=ankle+weights&crid=3JL5IFT72SZD3&sprefix=ankle+w%2Caps%2C94&ref=nb_sb_ss_ts-doa-p_1_7"
+  },
+  {
+    "image": "/assets/images/equipment/glute-ham-developer.png",
+    "imageAlt": "A glute ham developer",
+    "title": "Glute Ham Developer",
+    "description": "A machine for strengthening the glutes and hamstrings. Adjustable for different users.",
+    "type": "Machines",
+    "link": "https://www.amazon.ca/s?k=glute+ham+developer&crid=107PQYY9SFCNY&sprefix=glute+ham+developer%2Caps%2C82&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/weight-lifting-belt.jpg",
+    "imageAlt": "Someone with a weight lifting belt on their waist",
+    "title": "Weight Lifting Belt",
+    "description": "A belt to support the lower back during heavy lifting. Adjustable size.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=weight+lifting+belt&crid=1PGJZDU71NCLR&sprefix=weight+lif%2Caps%2C92&ref=nb_sb_ss_ts-doa-p_ci_hit-vc-hl-left_1_10"
+  },
+  {
+    "image": "/assets/images/equipment/plyo-box.jpg",
+    "imageAlt": "A simple plyo box",
+    "title": "Plyo Box",
+    "description": "A sturdy box for plyometric training. Available in different heights.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=plyo+box&crid=9XQNFKHB79L0&sprefix=plyo+box%2Caps%2C87&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/weight-plates.jpg",
+    "imageAlt": "Some weight plates",
+    "title": "Weight Plates",
+    "description": "Plates that add resistance to barbells and other equipment. Various weights available.",
+    "type": "Weights",
+    "link": "https://www.amazon.ca/s?k=weight+plates&crid=1JINBG4ZCOR8I&sprefix=weight+plates%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "image": "/assets/images/equipment/hyperextension-bench.webp",
+    "imageAlt": "A hyperextension bench",
+    "title": "Hyperextension Bench",
+    "description": "A bench for back and core strengthening exercises. Adjustable angles.",
+    "type": "Tools",
+    "link": "https://www.amazon.ca/s?k=hyperextension+bench&crid=UN7VFKTH9QS2&sprefix=hyper%2Caps%2C93&ref=nb_sb_ss_ts-doa-p_1_5"
+  }
+]

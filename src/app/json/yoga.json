@@ -1,0 +1,122 @@
+[
+  {
+    "image": "/assets/images/yoga/mountain-pose.png",
+    "imageAlt": "A person doing a mountain pose",
+    "title": "Mountain Pose",
+    "description": "Stand tall with feet together and hands at your sides."
+  },
+  {
+    "image": "/assets/images/yoga/downward-facing-dog.jpg",
+    "imageAlt": "A person doing a downward facing dog pose",
+    "title": "Downward Facing Dog",
+    "description": "Form an inverted V with hands and feet on the mat, hips raised."
+  },
+  {
+    "image": "/assets/images/workouts/plank.jpg",
+    "imageAlt": "A person doing a plank pose",
+    "title": "Plank Pose",
+    "description": "Keep body in a straight line from head to heels, supported on hands and toes."
+  },
+  {
+    "image": "/assets/images/yoga/cobra-pose.png",
+    "imageAlt": "A person doing a cobra pose",
+    "title": "Cobra Pose",
+    "description": "Lie face down, lift chest off the ground with the help of arms."
+  },
+  {
+    "image": "/assets/images/yoga/tree-pose.png",
+    "imageAlt": "A person doing a tree pose",
+    "title": "Tree Pose",
+    "description": "Stand on one leg, placing the foot of the other leg on the inner thigh."
+  },
+  {
+    "image": "/assets/images/yoga/warrior-i.webp",
+    "imageAlt": "A person doing a warrior I pose",
+    "title": "Warrior I",
+    "description": "Lunge with one foot forward, raise arms overhead."
+  },
+  {
+    "image": "/assets/images/yoga/warrior-ii.png",
+    "imageAlt": "A person doing a warrior II pose",
+    "title": "Warrior II",
+    "description": "Lunge with one foot forward, extend arms out to the sides."
+  },
+  {
+    "image": "/assets/images/yoga/triangle-pose.png",
+    "imageAlt": "A person doing a triangle pose",
+    "title": "Triangle Pose",
+    "description": "Extend one arm to the ground, the other towards the sky, forming a triangle."
+  },
+  {
+    "image": "/assets/images/yoga/seated-forward-bend.png",
+    "imageAlt": "A person doing a seated forward bend pose",
+    "title": "Seated Forward Bend",
+    "description": "Sit with legs extended, bend forward to touch feet."
+  },
+  {
+    "image": "/assets/images/yoga/bridge-pose.png",
+    "imageAlt": "A person doing a bridge pose",
+    "title": "Bridge Pose",
+    "description": "Lie on back, lift hips with feet and shoulders on the ground."
+  },
+  {
+    "image": "/assets/images/yoga/childs-pose.png",
+    "imageAlt": "A person doing a child's pose",
+    "title": "Child's Pose",
+    "description": "Kneel, sit back on heels, extend arms forward on the mat."
+  },
+  {
+    "image": "/assets/images/yoga/cat-cow-stretch.png",
+    "imageAlt": "A person doing a cat-cow pose",
+    "title": "Cat-Cow Pose",
+    "description": "Alternate between arching and rounding your back."
+  },
+  {
+    "image": "/assets/images/yoga/corpse-pose.png",
+    "imageAlt": "A person doing a corpse pose",
+    "title": "Corpse Pose",
+    "description": "Lie on back, arms at sides, legs relaxed."
+  },
+  {
+    "image": "/assets/images/yoga/half-lord-of-the-fishes-pose.png",
+    "imageAlt": "A person doing a half lord of the fishes pose",
+    "title": "Half Lord of the Fishes Pose",
+    "description": "Sit with one leg bent, the other leg crossed over it, twist to the side."
+  },
+  {
+    "image": "/assets/images/yoga/head-to-knee-pose.png",
+    "imageAlt": "A person doing a head to knee pose",
+    "title": "Head to Knee Pose",
+    "description": "Sit with one leg extended, bend forward to touch the foot."
+  },
+  {
+    "image": "/assets/images/yoga/happy-baby-pose.png",
+    "imageAlt": "A person doing a happy baby pose",
+    "title": "Happy Baby Pose",
+    "description": "Lie on back, hold feet with hands, knees bent."
+  },
+  {
+    "image": "/assets/images/yoga/garland-pose.png",
+    "imageAlt": "A person doing a garland pose",
+    "title": "Garland Pose",
+    "description": "Squat with feet close, hands in prayer position."
+  },
+  {
+    "image": "/assets/images/yoga/low-lunge.png",
+    "imageAlt": "A person doing a low lunge pose",
+    "title": "Low Lunge",
+    "description": "Lunge forward with one foot, knee on the ground."
+  },
+  {
+    "image": "/assets/images/yoga/standing-forward-bend.png",
+    "imageAlt": "A person doing a standing forward bend pose",
+    "title": "Standing Forward Bend",
+    "description": "Stand with feet together, bend forward to touch the ground."
+  },
+  {
+    "image": "/assets/images/yoga/extended-side-angle.png",
+    "imageAlt": "A person doing a extended side angle pose",
+    "title": "Extended Side Angle",
+    "description": "Lunge with one foot, extend the opposite arm over the ear."
+  }
+]

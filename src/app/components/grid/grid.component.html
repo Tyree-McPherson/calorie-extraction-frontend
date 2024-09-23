@@ -1,0 +1,9 @@
+<div class="grid-container">
+  <div
+    class="grid"
+    [style]="'grid-template-columns: repeat(auto-fit, minmax(' +
+              itemWidth + 'px, 1fr))'"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>

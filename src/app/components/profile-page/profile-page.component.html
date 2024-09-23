@@ -1,0 +1,226 @@
+<div class="profile">
+  <div class="personal-bar">
+    <div class="height" matTooltip="height">
+      <mat-icon fontSet="material-icons-round" aria-label="user height">
+        height
+      </mat-icon>
+      <h5>{{ height ? height + " cm" : "N/A" }}</h5>
+    </div>
+    <div class="weight" matTooltip="weight">
+      <mat-icon fontSet="material-icons-round" aria-label="user weight">
+        monitor_weight
+      </mat-icon>
+      <h5>{{ weight ? weight + " lbs" : "N/A" }}</h5>
+    </div>
+    <div class="age" matTooltip="age">
+      <mat-icon fontSet="material-icons-round" aria-label="user age">
+        elderly_man
+      </mat-icon>
+      <h5>{{ age ? age + " years old" : "N/A" }}</h5>
+    </div>
+    <div class="gender" matTooltip="gender">
+      <div class="gender-inner">
+        <mat-icon fontSet="material-icons-round" aria-label="user gender one">
+          female
+        </mat-icon>
+        <mat-icon fontSet="material-icons-round" aria-label="user gender two">
+          male
+        </mat-icon>
+      </div>
+      <h5>{{ gender || "N/A" }}</h5>
+    </div>
+    <div class="edit pointer" matTooltip="edit" (click)="toggleModal()">
+      <mat-icon fontSet="material-icons-round" aria-label="edit">
+        edit
+      </mat-icon>
+    </div>
+  </div>
+  <app-grid itemWidth="400">
+    <app-profile-box
+      title="My Routine"
+      [link]="routes.myRoutine"
+    >
+      <p
+        class="no-data"
+        *ngIf="myRoutineNoData === 'No routine data available for today'">
+        {{ myRoutineNoData }}
+      </p>
+      <section class="profile-box-section" *ngIf="!myRoutineNoData">
+        <h4>{{ weekday }}</h4>
+        <div *ngFor="let exercise of routineData?.exercises">
+          <app-box-item
+            *ngIf="exercise.type"
+            [icon]="exercise.type"
+            [description]="exercise.description"
+            [duration]="exercise.duration"
+          />
+        </div>
+      </section>
+    </app-profile-box>
+    <app-profile-box
+      title="My Meal Plan"
+      [link]="routes.myMealPlan"
+    >
+      <p
+        class="no-data"
+        *ngIf="myMealPlanNoData === 'No meal plan data available for today'">
+        {{ myMealPlanNoData }}
+      </p>
+      <section class="profile-box-section" *ngIf="!myMealPlanNoData">
+        <h4>Breakfast</h4>
+        <div class="box-item">
+          <p>{{ myMealPlanBreakfast?.food }}</p>
+          <p>{{ myMealPlanBreakfast?.calories }}</p>
+        </div>
+        <h4>Lunch</h4>
+        <div class="box-item">
+          <p>{{ myMealPlanLunch?.food }}</p>
+          <p>{{ myMealPlanLunch?.calories }}</p>
+        </div>
+        <h4>Dinner</h4>
+        <div class="box-item">
+          <p>{{ myMealPlanDinner?.food }}</p>
+          <p>{{ myMealPlanDinner?.calories }}</p>
+        </div>
+      </section>
+    </app-profile-box>
+    <app-profile-box
+      title="My Goals"
+      [link]="routes.myGoals"
+    >
+      <p
+        class="no-data"
+        *ngIf="myGoalsNoData === 'No goal data available'">
+        {{ myGoalsNoData }}
+      </p>
+      <section class="profile-box-section" *ngIf="!myGoalsNoData">
+        <h4>
+          {{ completedGoals }}/{{ totalGoals }} 
+          Goal{{ totalGoals === 1 ? '' : 's' }}
+          Completed
+        </h4>
+        <ng-container *ngFor="let goal of myGoalsData">
+          <app-goal-item
+            *ngIf="goal.type"
+            [icon]="goal.type"
+            [description]="goal.description"
+            [percentage]="goal.percentage"
+          />
+        </ng-container>
+      </section>
+    </app-profile-box>
+    <app-profile-box
+      title="Calorie Loss Tracker"
+      [link]="routes.calorieLossTracker"
+    >
+      <p
+        class="no-data"
+        *ngIf="calorieLossTrackerNoData === 'No calorie loss data available'"
+      >
+        {{ calorieLossTrackerNoData }}
+      </p>
+      <section class="profile-box-section" *ngIf="!calorieLossTrackerNoData">
+        <div *ngIf="naturalCalorieLoss !== '0'">
+          <h4 class="box-sub-heading">Natural Calorie Loss</h4>
+          <div class="box-item">
+            <p>
+              You lose {{ naturalCalorieLoss }} calories per day, based on your
+              <a href="/faq#what-does-basal-metabolic-rate-mean?">BMR</a>
+            </p>
+          </div>
+        </div>
+        <ng-container *ngIf="caloriesLost !== '0'">
+          <h4>Calorie Loss</h4>
+          <div class="box-item">
+            <p>
+              You are projected to extract
+              {{ caloriesLost }} calories this week
+            </p>
+          </div>
+        </ng-container>
+        <ng-container *ngIf="caloriesGained !== '0'">
+          <h4>Calorie Intake</h4>
+          <div class="box-item">
+            <p>
+              You are projected to consume
+              {{ caloriesGained }} calories this week
+            </p>
+          </div>
+        </ng-container>
+      </section>
+    </app-profile-box>
+  </app-grid>
+</div>
+<app-modal
+  *ngIf="showModal"
+  heading="Edit Personal Details"
+  [clickAway]="hideModal"
+>
+  <div class="modal-content">
+    <div class="modal-body">
+      <app-form-field
+        label="Height"
+        [formSelectOptions]="false"
+        type="text"
+        suffix="cm"
+        icon="height"
+        [iconSuffix]="false"
+        maxLength="3"
+        id="form-field-height"
+        [(model)]="heightEdit"
+        [hint]="heightErrorText"
+        [error]="heightErrorText !== ''"
+        [value]="heightEdit"
+      />
+      <app-form-field
+        label="Weight"
+        [formSelectOptions]="false"
+        type="text"
+        suffix="lbs"
+        icon="monitor_weight"
+        [iconSuffix]="false"
+        maxLength="3"
+        id="form-field-weight"
+        [(model)]="weightEdit"
+        [hint]="weightErrorText"
+        [error]="weightErrorText !== ''"
+        [value]="weightEdit"
+      />
+      <app-form-field
+        label="Birthday"
+        [formSelectOptions]="false"
+        type="date"
+        placeholder="MM/DD/YYYY"
+        icon="cake"
+        [iconSuffix]="false"
+        id="form-field-birthday"
+        [(model)]="birthdayEdit"
+        [hint]="birthdayErrorText"
+        [error]="birthdayErrorText !== ''"
+        [value]="birthdayEdit"
+      />
+      <app-form-field
+        label="Gender"
+        [formSelectOptions]="true"
+        [selectOptions]="genders"
+        type="text"
+        icon="transgender"
+        [iconSuffix]="false"
+        id="form-field-gender"
+        [(model)]="genderEdit"
+        [hint]="genderErrorText"
+        [error]="genderErrorText !== ''"
+        [value]="genderEdit"
+      />
+    </div>
+    <div class="modal-buttons">
+      <app-button text="Confirm" (click)="confirmEdit()" [flat]="false" />
+      <app-button
+        text="Cancel"
+        [click]="hideModal"
+        [flat]="false"
+        [inverted]="true"
+      />
+    </div>
+  </div>
+</app-modal>

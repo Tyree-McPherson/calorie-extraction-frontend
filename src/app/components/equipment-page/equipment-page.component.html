@@ -1,0 +1,24 @@
+<div class="equipment-container">
+  <div class="filter-container">
+    <app-filter
+      [dropdownItems]="filterDropdownItems"
+      (filterItemSelected)="setFilter($event)"
+    />
+  </div>
+  <app-search-bar (searchText)="handleSearch($event)" />
+  <app-grid itemWidth="350">
+    <app-card
+      *ngFor="let equipment of equipment"
+      [image]="equipment.image"
+      [imageAlt]="equipment.imageAlt"
+      [title]="equipment.title"
+      [description]="equipment.description"
+      buttonText="BUY NOW"
+      (buttonClicked)="buyNow(equipment.link)"
+    />
+  </app-grid>
+</div>
+<app-paginate
+  [totalItems]="totalItems"
+  (paginationClicked)="handlePagination($event)"
+/>

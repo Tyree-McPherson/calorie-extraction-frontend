@@ -1,0 +1,23 @@
+<div class="vitamins-container">
+  <div class="filter-container">
+    <app-filter
+      [dropdownItems]="filterDropdownItems"
+      (filterItemSelected)="setFilter($event)"
+    />
+  </div>
+  <app-grid itemWidth="350">
+    <app-card
+      *ngFor="let vitamin of vitamins"
+      [image]="vitamin.image"
+      [imageAlt]="vitamin.imageAlt"
+      [title]="vitamin.title"
+      [description]="vitamin.description"
+      buttonText="BUY NOW"
+      (buttonClicked)="buyNow(vitamin.link)"
+    />
+  </app-grid>
+</div>
+<app-paginate
+  [totalItems]="totalItems"
+  (paginationClicked)="handlePagination($event)"
+/>

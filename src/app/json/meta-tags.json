@@ -1,0 +1,156 @@
+{
+  "index": {
+    "title": "Home - Calorie Extraction",
+    "description": "Maximize your body's calorie extraction",
+    "keywords": "Workout, Exercise, Calorie, Extraction",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "profile": {
+    "title": "Profile - Calorie Extraction",
+    "description": "View your personal info, routine, meal plan, goals, and calorie loss all in one place",
+    "keywords": "Workout, Exercise, Goals, Calorie Loss",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "myRoutine": {
+    "title": "My Routine - Calorie Extraction",
+    "description": "Establish a healthy routine with the Calorie Extraction website",
+    "keywords": "Workout, Exercise, Routine, Schedule",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "myGoals": {
+    "title": "My Goals - Calorie Extraction",
+    "description": "Set goals for yourself and track your progress",
+    "keywords": "Goals, Exercise, Percentage",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "workouts": {
+    "title": "Workouts - Calorie Extraction",
+    "description": "Select from a wide range of workouts to help you get in shape",
+    "keywords": "Workout, Exercise, Arms, Legs, Abs, Core",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "bodyMassIndexCalculator": {
+    "title": "Body Mass Index Calculator - Calorie Extraction",
+    "description": "Calculate your body mass index with a wide range of measurements",
+    "keywords": "BMI, Body, Mass, Index, Measurements",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "calorieLossTracker": {
+    "title": "Calorie Loss Tracker - Calorie Extraction",
+    "description": "Track your calorie loss throughout the week",
+    "keywords": "Calorie, Tracking, Week",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "equipment": {
+    "title": "Equipment - Calorie Extraction",
+    "description": "Find the right equipment for your workouts",
+    "keywords": "Equipment, Machines",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "yoga": {
+    "title": "Yoga - Calorie Extraction",
+    "description": "Practice mindful yoga poses to help clear your mind",
+    "keywords": "Yoga, Poses, Mindfulness",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "breathingExercises": {
+    "title": "Breathing Exercises - Calorie Extraction",
+    "description": "Practice breathing exercises to help you calm down",
+    "keywords": "Breathing, Exercises, Calm",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "massages": {
+    "title": "Massages - Calorie Extraction",
+    "description": "Massages that you can do at home",
+    "keywords": "Massages, Home, Spa",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "myMealPlan": {
+    "title": "My Meal Plan - Calorie Extraction",
+    "description": "View your weekly meal plan",
+    "keywords": "Food, Meal, Plan, Week",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "healthyFood": {
+    "title": "Healthy Food - Calorie Extraction",
+    "description": "Select from dozens of healthy foods",
+    "keywords": "Food, Healthy, Calories, Servings",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "healthyMeals": {
+    "title": "Healthy Meals - Calorie Extraction",
+    "description": "Find the right healthy meals for you and get a list of the best recipes",
+    "keywords": "Meals, Healthy, Recipes",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "calorieIntakeTracker": {
+    "title": "Calorie Intake Tracker - Calorie Extraction",
+    "description": "Track your calorie intake throughout the week",
+    "keywords": "Calories, Intake, Week",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "vitamins": {
+    "title": "Vitamins - Calorie Extraction",
+    "description": "Find vitamins that suit your diet",
+    "keywords": "Vitamins, Health, Bones, Digestion",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "faq": {
+    "title": "FAQ - Calorie Extraction",
+    "description": "Find answers to the most frequently asked questions",
+    "keywords": "FAQ, Help, Questions, Answers",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "about": {
+    "title": "About - Calorie Extraction",
+    "description": "Learn about what Calorie Extraction is all about",
+    "keywords": "About, Values, Team, Teamwork",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "contact": {
+    "title": "Contact - Calorie Extraction",
+    "description": "Get the contact information for Calorie Extraction",
+    "keywords": "Contact, Phone, Email",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "termsOfUse": {
+    "title": "Terms of Use - Calorie Extraction",
+    "description": "Read Calorie Extraction's terms of use",
+    "keywords": "Terms, Legal",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy - Calorie Extraction",
+    "description": "Read Calorie Extraction's privacy policy",
+    "keywords": "Privacy, Policy, Legal",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "pageNotFound": {
+    "title": "Error 404 - Calorie Extraction",
+    "description": "Page not found",
+    "keywords": "Error, 404",
+    "robots": "noindex, nofollow",
+    "viewport": "width=device-width, initial-scale=1.0"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="massages-container">
+  <app-grid itemWidth="350">
+    <app-card
+      *ngFor="let massages of massages"
+      [image]="massages.image"
+      [imageAlt]="massages.imageAlt"
+      [title]="massages.title"
+      [description]="massages.description"
+      buttonText="LEARN MORE"
+      (buttonClicked)="learnMore(massages.link)"
+    />
+  </app-grid>
+</div>
+<app-paginate
+  [totalItems]="totalItems"
+  (paginationClicked)="handlePagination($event)"
+/>

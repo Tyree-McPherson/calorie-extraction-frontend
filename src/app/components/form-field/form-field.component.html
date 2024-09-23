@@ -1,0 +1,75 @@
+<mat-form-field
+  *ngIf="formSelectOptions && type !== 'date'"
+  appearance="outline"
+  color="primary"
+>
+  <mat-label>{{ label }}</mat-label>
+  <mat-icon matSuffix *ngIf="icon && iconSuffix">{{ icon }}</mat-icon>
+  <mat-icon matPrefix *ngIf="icon && !iconSuffix">{{ icon }}</mat-icon>
+  <mat-select
+    [id]="id"
+    [(ngModel)]="model"
+    [value]="value"
+    (selectionChange)="onSelectionChange($event)"
+  >
+    <mat-option *ngFor="let option of selectOptions" [value]="option">
+      {{ option }}
+    </mat-option>
+  </mat-select>
+  <mat-hint [style.color]="error ? 'var(--colorError)' : 'var(--colorBlack)'">
+    {{ hint }}
+  </mat-hint>
+  <mat-error>Please enter a valid number</mat-error>
+</mat-form-field>
+<mat-form-field
+  *ngIf="!formSelectOptions && type !== 'date'"
+  appearance="outline"
+  color="primary"
+>
+  <mat-label>{{ label }}</mat-label>
+  <mat-icon
+    matSuffix
+    *ngIf="icon && iconSuffix"
+    (click)="iconClick()"
+    [class]="iconClickable ? 'pointer' : ''"
+  >
+    {{ icon }}
+  </mat-icon>
+  <mat-icon matPrefix *ngIf="icon && !iconSuffix">{{ icon }}</mat-icon>
+  <mat-hint [style.color]="error ? 'var(--colorError)' : 'var(--colorBlack)'">
+    {{ hint }}
+  </mat-hint>
+  <input
+    matInput
+    [placeholder]="placeholder"
+    [type]="type"
+    [maxLength]="maxLength"
+    [id]="id"
+    [(ngModel)]="model"
+    [value]="value"
+  >
+  <span matTextPrefix *ngIf="prefix">{{ prefix }}</span>
+  <span matTextSuffix *ngIf="suffix">{{ suffix }}</span>
+</mat-form-field>
+<mat-form-field
+  *ngIf="type === 'date'"
+  appearance="outline"
+  color="primary"
+>
+  <mat-label>{{ label }}</mat-label>
+  <mat-icon matSuffix *ngIf="icon && iconSuffix">{{ icon }}</mat-icon>
+  <mat-icon matPrefix *ngIf="icon && !iconSuffix">{{ icon }}</mat-icon>
+  <input
+    matInput
+    [matDatepicker]="picker"
+    [placeholder]="placeholder"
+    [id]="id"
+    [(ngModel)]="model"
+    [value]="value"
+  >
+  <mat-hint [style.color]="error ? 'var(--colorError)' : 'var(--colorBlack)'">
+    {{ hint }}
+  </mat-hint>
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>

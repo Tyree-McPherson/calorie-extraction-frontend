@@ -1,0 +1,63 @@
+.routine-day-skeleton:last-child {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin: 0 var(--spacingSmall) 0 0;
+}
+
+.box-container {
+  width: 320px;
+  height: 320px;
+  background-color: var(--colorGray);
+  border-radius: var(--borderRadiusMedium);
+  padding: var(--spacingMedium);
+  overflow: auto;
+
+  p {
+    text-align: center;
+  }
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  height: 454px;
+  display: grid;
+  grid-auto-rows: 1fr 60px;
+  justify-items: center;
+  padding: 0 var(--spacingLarge);
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+
+  button {
+    font-family: interRegular;
+    background-color: inherit;
+    border: none;
+    color: var(--colorRed);
+    width: 200px;
+    cursor: pointer;
+  }
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

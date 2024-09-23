@@ -1,0 +1,17 @@
+{
+  "name": "Calorie Extraction",
+  "short_name": "Calorie Extraction",
+  "theme_color": "#C2001A",
+  "background_color": "#E0E0E0",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "src/assets/images/calorie-extraction-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

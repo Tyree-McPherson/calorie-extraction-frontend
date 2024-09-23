@@ -1,0 +1,74 @@
+<div class="workouts-container">
+  <div class="filter-container">
+    <app-filter
+      [dropdownItems]="filterDropdownItems"
+      (filterItemSelected)="setFilter($event)"
+    />
+  </div>
+  <app-search-bar (searchText)="handleSearch($event)" />
+  <app-grid itemWidth="350">
+    <app-card
+      *ngFor="let food of healthyFood"
+      [image]="food.image"
+      [imageAlt]="food.imageAlt"
+      [title]="food.title"
+      [description]="food.servings"
+      [subText]="'Calories: ' + food.calories"
+      buttonText="ADD TO MY MEAL PLAN"
+      (buttonClicked)="addToMyMealPlan(food)"
+    />
+  </app-grid>
+</div>
+<app-paginate
+  [totalItems]="totalItems"
+  (paginationClicked)="handlePagination($event)"
+/>
+<app-alert
+  [text]="alertText"
+  class="failure"
+  *ngIf="showAlert"
+/>
+<app-modal
+  *ngIf="showModal"
+  [heading]="'Add ' + foodObject.title + ' to My Meal Plan'"
+  [clickAway]="hideModal"
+>
+  <div class="modal-content">
+    <div class="modal-body">
+      <app-form-field
+        label="Select Weekday"
+        [formSelectOptions]="true"
+        [selectOptions]="capitalizeFirstLetterInArray(modalAvailableWeekdays)"
+        [error]="false"
+        type="text"
+        id="select-weekday-form-field"
+        [(model)]="valueWeekday"
+        [value]="valueWeekday"
+      />
+      <app-form-field
+        [label]="data[step].type"
+        [formSelectOptions]="true"
+        [selectOptions]="data[step].options"
+        [error]="false"
+        type="text"
+        id="add-food-form-field"
+        [(model)]="valueServings"
+        [value]="valueServings"
+      />
+      <app-form-field
+        label="Select Meal"
+        [formSelectOptions]="true"
+        [selectOptions]="['Breakfast', 'Lunch', 'Dinner']"
+        [error]="false"
+        type="text"
+        id="add-food-form-field"
+        [(model)]="valueMeal"
+        [value]="valueMeal"
+      />
+    </div>
+    <div class="modal-buttons">
+      <app-button text="Confirm" (click)="addFoodToMealPlan()" />
+      <app-button text="Cancel" [click]="hideModal" [inverted]="true" />
+    </div>
+  </div>
+</app-modal>

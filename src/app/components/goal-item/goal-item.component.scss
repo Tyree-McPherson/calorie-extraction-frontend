@@ -1,0 +1,35 @@
+.box-item {
+  width: 100%;
+  height: 56px;
+  display: grid;
+  grid-template-columns: 42px 1fr 42px;
+  align-items: center;
+  background-color: var(--colorWhite);
+  border-radius: var(--borderRadiusSmall);
+  padding: 0 var(--spacingSmall);
+  margin-bottom: var(--spacingSmall);
+  border: 3px solid var(--colorGray);
+}
+
+h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: var(--fontSizeMedium);
+}
+
+.percent-green {
+  color: var(--colorGreen);
+}
+
+.percent-orange {
+  color: var(--colorOrange);
+}
+
+.percent-red {
+  color: var(--colorRed);
+}

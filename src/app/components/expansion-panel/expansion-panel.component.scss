@@ -1,0 +1,71 @@
+.navigation {
+  position: relative;
+}
+
+.navigation-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: interRegular;
+  cursor: pointer;
+}
+
+.navigation-heading h4 {
+  font-family: interRegular;
+  font-size: var(--fontSizeMedium);
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 1.5rem;
+  border: 1px solid var(--colorGray);
+  border-radius: var(--borderRadiusSmall);
+  padding: 0 var(--spacingSmall) var(--spacingSmall) var(--spacingSmall);
+  -webkit-animation: fadeIn 0.3s;
+  animation: fadeIn 0.3s;
+  z-index: var(--zIndexHeaderDropdown);
+  background-color: var(--colorWhite);
+}
+
+.dropdown-list li {
+  cursor: pointer;
+  list-style: none;
+  margin-top: var(--spacingSmall);
+}
+
+.dropdown-list li a {
+  text-decoration: none;
+  display: block;
+  color: var(--colorBlack);
+  font-family: Inter;
+  font-size: var(--fontSizeMedium);
+}
+
+.dropdown-list li a:hover {
+  background-color: var(--colorGray);
+  border-radius: var(--borderRadiusSmall);
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    top: 0rem;
+    opacity: 0;
+  }
+
+  100% {
+    top: 1.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    top: 0rem;
+    opacity: 0;
+  }
+
+  100% {
+    top: 1.5rem;
+    opacity: 1;
+  }
+}

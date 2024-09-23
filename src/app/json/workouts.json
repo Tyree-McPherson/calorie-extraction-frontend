@@ -1,0 +1,121 @@
+[
+  {
+    "image": "/assets/images/workouts/push-ups.jpg",
+    "imageAlt": "Photo of someone doing push-ups",
+    "title": "Push-Ups",
+    "description": "Full-body exercise targeting chest, triceps, and shoulders. Great for building upper body strength.",
+    "type": "Upper Body"
+  },
+  {
+    "image": "/assets/images/workouts/pull-ups.jpg",
+    "imageAlt": "Photo of someone doing pull-ups",
+    "title": "Pull-Ups",
+    "description": "Upper body workout focusing on back and biceps. Requires lifting your body weight using a bar.",
+    "type": "Upper Body"
+  },
+  {
+    "image": "/assets/images/workouts/squats.jpg",
+    "imageAlt": "Photo of someone doing squats",
+    "title": "Squats",
+    "description": "Lower body exercise strengthening thighs, hips, and buttocks. Essential for leg muscle development.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/lunges.jpg",
+    "imageAlt": "Photo of someone doing lunges",
+    "title": "Lunges",
+    "description": "Leg workout that targets quads, hamstrings, and glutes. Improves balance and coordination.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/calf-raises.png",
+    "imageAlt": "Photo of someone doing calf raises",
+    "title": "Calf Raises",
+    "description": "Exercise to strengthen and tone calf muscles. Done by lifting heels off the ground.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/plank.jpg",
+    "imageAlt": "Photo of someone doing a plank",
+    "title": "Plank",
+    "description": "Core strengthening exercise holding a push-up position. Engages abs, back, and shoulders.",
+    "type": "Abs & Core"
+  },
+  {
+    "image": "/assets/images/workouts/jumping-jacks.jpg",
+    "imageAlt": "Photo of someone doing jumping jacks",
+    "title": "Jumping Jacks",
+    "description": "Cardio exercise involving jumping with arms and legs spread wide. Boosts heart rate",
+    "type": "Abs & Core"
+  },
+  {
+    "image": "/assets/images/workouts/skipping.jpg",
+    "imageAlt": "Photo of someone skipping",
+    "title": "Skipping",
+    "description": "High-intensity cardio using a jump rope. Enhances agility, coordination, and endurance.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/dips.jpg",
+    "imageAlt": "Photo of someone doing dips",
+    "title": "Dips",
+    "description": "Tricep and chest workout performed on parallel bars or a bench. Strengthens upper body.",
+    "type": "Upper Body"
+  },
+  {
+    "image": "/assets/images/workouts/crunches.jpg",
+    "imageAlt": "Photo of someone doing crunches",
+    "title": "Crunches",
+    "description": "Abdominal exercise focusing on the rectus abdominis. Effective for core strength.",
+    "type": "Abs & Core"
+  },
+  {
+    "image": "/assets/images/workouts/bicep-curls.jpg",
+    "imageAlt": "Photo of someone doing bicep curls",
+    "title": "Bicep Curls",
+    "description": "Arm exercise using weights to target the biceps. Enhances arm strength and muscle tone.",
+    "type": "Upper Body"
+  },
+  {
+    "image": "/assets/images/workouts/tricep-curls.jpg",
+    "imageAlt": "Photo of someone doing tricep curls",
+    "title": "Tricep Curls",
+    "description": "Isolated movement focusing on tricep muscles. Often performed with dumbbells.",
+    "type": "Upper Body"
+  },
+  {
+    "image": "/assets/images/workouts/leg-raises.jpg",
+    "imageAlt": "Photo of someone doing leg raises",
+    "title": "Leg Raises",
+    "description": "Core exercise targeting lower abdominal muscles. Performed lying down, lifting legs.",
+    "type": "Abs & Core"
+  },
+  {
+    "image": "/assets/images/workouts/speed-walking.jpg",
+    "imageAlt": "Photo of someone speed walking",
+    "title": "Speed Walking",
+    "description": "Cardiovascular activity walking briskly. Boosts heart health and burns calories.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/running.jpg",
+    "imageAlt": "Photo of someone running",
+    "title": "Running",
+    "description": "High-intensity cardio for endurance and cardiovascular health. Burns significant calories.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/cycling.jpg",
+    "imageAlt": "Photo of someone cycling",
+    "title": "Cycling",
+    "description": "Low-impact cardio exercise improving leg strength and endurance. Great for heart health.",
+    "type": "Legs"
+  },
+  {
+    "image": "/assets/images/workouts/swimming.jpg",
+    "imageAlt": "Photo of someone swimming",
+    "title": "Swimming",
+    "description": "Full-body workout enhancing cardiovascular fitness. Low-impact and joint-friendly.",
+    "type": "Abs & Core"
+  }
+]

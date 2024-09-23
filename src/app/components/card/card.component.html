@@ -1,0 +1,19 @@
+<mat-card class="card-container" appearance="outlined">
+  <img
+    mat-card-image
+    [src]="routePrefix + image"
+    [alt]="imageAlt"
+    loading="lazy"
+  >
+  <mat-card-header>
+    <mat-card-title>{{ title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ description }}</p>
+    <p *ngIf="subText">{{ subText }}</p>
+    <p *ngIf="subSubText">{{ subSubText }}</p>
+  </mat-card-content>
+  <mat-card-actions *ngIf="buttonText">
+    <button mat-button (click)="buttonClicked.emit()">{{ buttonText }}</button>
+  </mat-card-actions>
+</mat-card>

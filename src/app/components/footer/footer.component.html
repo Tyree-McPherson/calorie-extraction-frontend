@@ -1,0 +1,40 @@
+<footer>
+  <!-- Copyright -->
+  <div>
+    <p>© {{ getYear }} Calorie Extraction</p>
+  </div>
+  <!-- Page links -->
+  <div>
+    <p><a [routerLink]="routeFaq">FAQ</a></p>
+    <p><a [routerLink]="routeAbout">About</a></p>
+    <p><a [routerLink]="routeContact">Contact</a></p>
+    <p><a [routerLink]="routeTermsOfUse">Terms of Use</a></p>
+    <p><a [routerLink]="routePrivacyPolicy">Privacy Policy</a></p>
+  </div>
+  <!-- Social media -->
+  <div>
+    <div class="social-media-icons">
+      <a routerLink="#facebook-page">
+        <img
+          [src]="routePrefix + '/assets/images/facebook.svg'"
+          alt="Facebook"
+          loading="lazy"
+        >
+      </a>
+      <a routerLink="#twitter-page">
+        <img
+          [src]="routePrefix + '/assets/images/twitter.png'"
+          alt="Twitter"
+          loading="lazy"
+        >
+      </a>
+      <a routerLink="#instagram-page">
+        <img
+          [src]="routePrefix + '/assets/images/instagram.png'"
+          alt="Instagram"
+          loading="lazy"
+        >
+      </a>
+    </div>
+  </div>
+</footer>

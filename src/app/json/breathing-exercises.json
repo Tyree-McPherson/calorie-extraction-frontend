@@ -1,0 +1,237 @@
+[
+  {
+    "title": "The flowers and candles technique",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale through your nose like you are sniffing a flower"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Exhale through your mouth like you are blowing out birthday candles"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Repeat as needed, until you feel calmer"
+      }
+    ]
+  },
+  {
+    "title": "5-6 breathing",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale through your nose for a count of one, while thinking the word “one” in your head"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Exhale through your mouth for a count of five, while thinking the word “relax”"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale again for a count of one, thinking the word “two”"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Exhale again for five, thinking the word “relax”"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Repeat until you get to 10 inhales and exhales"
+      }
+    ]
+  },
+  {
+    "title": "4-7-8 breathing",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Place one hand on your stomach and one on your chest"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Take a deep breath, counting to four as you inhale"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Hold that breath and count to seven"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Count to eight as you exhale. Try to visualize yourself pushing all the air out of your lungs"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Repeat three to seven times, or until you feel calmer"
+      }
+    ]
+  },
+  {
+    "title": "Pursed-lip breathing",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Relax your upper body"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale through your nose for two full seconds"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Purse your lips as though you are about to whistle"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Exhale slowly (for four seconds) through your pursed lips"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Practice four to five times a day until the breathing pattern becomes second nature"
+      }
+    ]
+  },
+  {
+    "title": "Alternate nostril breathing",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Sit upright and exhale fully through both nostrils"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Close your right nostril with the thumb of your right hand"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale slowly through the left nostril"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "After a complete inhale, close your left nostril with the little and ring fingers of your right hand"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Lift your right thumb off your right nostril and take a full exhale through the right nostril"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Close your right nostril with your right thumb and release your left nostril"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale through your left nostril"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Continue rotating nostrils for up to 15 minutes"
+      }
+    ]
+  },
+  {
+    "title": "The squeegee breath",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Take a full inhale"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "As you exhale, imagine a squeegee going all the way from the top of your head to your toes"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Imagine your stress flowing down like dirty water, rinsing off at your feet"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale again, this time imagining you are inhaling clean water or clean thoughts"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Repeat two more times"
+      }
+    ]
+  },
+  {
+    "title": "Breathing in a word",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Sit comfortably and close your eyes"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "As you inhale, think of the phrase “breathing in peace and calm”"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "As you exhale, think “breathing out tension and anxiety”"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "As you think these phrases, imagine stress leaving your body and peace taking its place"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Continue for up to 10 minutes, gradually adding time until you reach 20 minutes"
+      }
+    ]
+  },
+  {
+    "title": "Coherent breathing",
+    "exercises": [
+      {
+        "image": "/assets/images/breathing-exercises/breathe-in.png",
+        "imageAlt": "Breathe in",
+        "description": "Inhale for a count of 5"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-out.png",
+        "imageAlt": "Breathe out",
+        "description": "Exhale for a count of 5"
+      },
+      {
+        "image": "/assets/images/breathing-exercises/breathe-hold.png",
+        "imageAlt": "Hold breath",
+        "description": "Continue this breathing pattern for at least a few minutes"
+      }
+    ]
+  }
+]

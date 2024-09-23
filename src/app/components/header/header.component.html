@@ -1,0 +1,185 @@
+<header>
+  <mat-toolbar class="header">
+    <div class="header-dynamic-bar">
+      <div class="logo">
+        <a routerLink="/">
+          <img
+            [src]="routePrefix + '/assets/images/calorie-extraction-logo.png'"
+            alt="logo"
+            loading="lazy"
+          >
+        </a>
+      </div>
+      <div class="navigation">
+        <app-expansion-panel heading="Fitness" [list]="listFitness" />
+        <app-expansion-panel heading="Wellness" [list]="listWellness" />
+        <app-expansion-panel heading="Nutrition" [list]="listNutrition" />
+      </div>
+      <div class="account" *ngIf="!loggedIn">
+        <button mat-flat-button (click)="login()">Login</button>
+        <button mat-flat-button (click)="signup()">Sign Up</button>
+      </div>
+      <div class="account" *ngIf="loggedIn">
+        <app-profile />
+      </div>
+    </div>
+    <div class="header-menu">
+      <div class="header-menu-icons">
+        <div class="logo">
+          <a routerLink="/">
+            <img
+              [src]=
+                "routePrefix + '/assets/images/calorie-extraction-logo.png'"
+              alt="logo"
+              loading="lazy"
+            >
+          </a>
+        </div>
+        <div class="hamburger-menu" (click)="toggleMenu()">
+          <mat-icon matSuffix>menu</mat-icon>
+        </div>
+      </div>
+      <div
+        id="header-menu-dropdown"
+        class="header-menu-dropdown"
+        *ngIf="headerMenu"
+      >
+        <div class="header-menu-dropdown-list">
+          <hr/>
+          <h3>Account</h3>
+          <div class="account-center" *ngIf="!loggedIn">
+            <button mat-flat-button (click)="login()">Login</button>
+            <button mat-flat-button (click)="signup()">Sign Up</button>
+          </div>
+          <div class="account" *ngIf="loggedIn">
+            <a [href]="routes.profile"><h4>Profile</h4></a>
+            <a [href]="routes.index" (click)="logoutClick($event)">
+              <h4>Logout</h4>
+            </a>
+          </div>
+          <hr/>
+          <h3>Fitness</h3>
+          <h4 *ngFor="let item of listFitness">
+            <a [routerLink]="item.link" (click)="toggleMenu()">
+              {{ item.text }}
+            </a>
+          </h4>
+          <hr/>
+          <h3>Wellness</h3>
+          <h4 *ngFor="let item of listWellness">
+            <a [routerLink]="item.link" (click)="toggleMenu()">
+              {{ item.text }}
+            </a>
+          </h4>
+          <hr/>
+          <h3>Nutrition</h3>
+          <h4 *ngFor="let item of listNutrition">
+            <a [routerLink]="item.link" (click)="toggleMenu()">
+              {{ item.text }}
+            </a>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </mat-toolbar>
+</header>
+<app-modal
+  *ngIf="modalType === 'login'"
+  heading="Login"
+  [clickAway]="hideModal"
+  [messageText]="modalText"
+  [errorMessage]="errorMessage"
+>
+  <div class="modal-content">
+    <div class="modal-body">
+      <app-input-field
+        label="Email"
+        placeholder="Email"
+        [maxLength]="30"
+        (keyup)="keyup($event)"
+        id="login-email"
+        [bottomText]="loginEmailBottomText"
+        [bottomTextRed]="true"
+      />
+      <div>
+        <app-input-field
+          label="Password"
+          placeholder="Password"
+          type="password"
+          [maxLength]="30"
+          icon="visibility"
+          (keyup)="keyup($event)"
+          id="login-password"
+          [bottomText]="loginPasswordBottomText"
+          [bottomTextRed]="true"
+        />
+        <p class="text-below-field">
+          Do not have an account?
+          <a (click)="signup()">Signup</a>
+        </p>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <app-button text="Login" [click]="loginClick" [flat]="false" />
+    </div>
+  </div>
+</app-modal>
+<app-modal
+  *ngIf="modalType === 'signup'"
+  heading="Sign Up"
+  [clickAway]="hideModal"
+  [messageText]="modalText"
+  [errorMessage]="errorMessage"
+>
+  <div class="modal-content">
+    <div class="modal-body">
+      <app-input-field
+        label="Email"
+        placeholder="Email"
+        [maxLength]="30"
+        (keyup)="keyup($event)"
+        id="signup-email"
+        [bottomText]="signupEmailBottomText"
+        [bottomTextRed]="true"
+      />
+      <app-input-field
+        label="Password"
+        placeholder="Password"
+        type="password"
+        [maxLength]="30"
+        icon="visibility"
+        (keyup)="keyup($event)"
+        id="signup-password"
+        [bottomText]="signupPasswordBottomText"
+        [bottomTextRed]="true"
+      />
+      <div>
+        <app-input-field
+          label="Confirm Password"
+          placeholder="Confirm Password"
+          type="password"
+          [maxLength]="30"
+          icon="visibility"
+          (keyup)="keyup($event)"
+          id="signup-confirm-password"
+          [bottomText]="signupConfirmPasswordBottomText"
+          [bottomTextRed]="true"
+        />
+        <p class="text-below-field">
+          Already have an account?
+          <a (click)="login()">Login</a>
+        </p>
+        <br>
+        <p class="text-center">
+          By signing up, you agree to the
+          <a [href]="routes.termsOfUse">Terms of Use</a>
+          and
+          <a [href]="routes.privacyPolicy">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+    <div class="modal-buttons">
+      <app-button text="Sign Up" [click]="signupClick" [flat]="false" />
+    </div>
+  </div>
+</app-modal>

@@ -1,0 +1,81 @@
+<app-grid itemWidth="320">
+  <div class="routine-day-skeleton" *ngFor="let day of routineData">
+    <div class="heading-container">
+      <h2>{{ day.weekday }}</h2>
+      <div
+        class="edit pointer"
+        matTooltip="edit"
+        (click)="toggleModal(day.weekday)"
+      >
+        <mat-icon fontSet="material-icons-round" aria-label="edit">
+          edit
+        </mat-icon>
+      </div>
+    </div>
+    <div class="box-container">
+      <!-- Only display exercises that have data. -->
+      <ng-container *ngIf="day.exercises[0].type; else noExercises">
+        <div *ngFor="let exercise of day.exercises">
+          <app-box-item
+            *ngIf="exercise.type"
+            [icon]="exercise.type"
+            [description]="exercise.description"
+            [duration]="exercise.duration"
+          />
+        </div>
+      </ng-container>
+      <ng-template #noExercises>
+        <p>No exercise on {{ day.weekday }}</p>
+      </ng-template>
+    </div>
+  </div>
+</app-grid>
+<app-modal
+  *ngIf="showModal"
+  heading="Edit {{ dayEdit }}"
+  [clickAway]="hideModal"
+>
+  <div class="modal-content">
+    <div class="modal-body">
+      <ng-container
+        *ngIf="editWeekdayExercises[weekdayAsNumber].exercises[0].type"
+      >
+        <div
+          *ngFor="let exercise of
+          editWeekdayExercises[weekdayAsNumber].exercises"
+        >
+          <app-box-item
+            *ngIf="exercise.type"
+            [icon]="exercise.type"
+            [description]="exercise.description"
+            [duration]="exercise.duration"
+          />
+        </div>
+      </ng-container>
+      <app-form-field
+        *ngIf="totalExercisesForWeekday !== 4"
+        [label]="data[step].type"
+        [formSelectOptions]="true"
+        [selectOptions]="data[step].options"
+        [error]="false"
+        [icon]="step !== 2 ? 'chevron_right' : ''"
+        type="text"
+        id="three-step-form-field"
+        [iconSuffix]="true"
+        [(model)]="value"
+        [value]="value"
+        (selectionChanged)="handleSelectionChange($event)"
+      />
+      <button
+        *ngIf="editWeekdayExercises[weekdayAsNumber].exercises[0].type"
+        mat-flat-button (click)="removeExercise()"
+      >
+        REMOVE LAST EXERCISE
+      </button>
+    </div>
+    <div class="modal-buttons">
+      <app-button text="Confirm" (click)="confirmEdit()" />
+      <app-button text="Cancel" [click]="hideModal" [inverted]="true" />
+    </div>
+  </div>
+</app-modal>

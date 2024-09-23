@@ -1,0 +1,19 @@
+<div class="yoga-container">
+  <div class="search-bar-container">
+    <app-search-bar (searchText)="handleSearch($event)" />
+  </div>
+  <app-grid itemWidth="350">
+    <app-card
+      *ngFor="let yoga of yoga"
+      [image]="yoga.image"
+      [imageAlt]="yoga.imageAlt"
+      [title]="yoga.title"
+      [description]="yoga.description"
+      buttonText=""
+    />
+  </app-grid>
+</div>
+<app-paginate
+  [totalItems]="totalItems"
+  (paginationClicked)="handlePagination($event)"
+/>

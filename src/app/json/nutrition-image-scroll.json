@@ -1,0 +1,37 @@
+[
+  {
+    "image": "/assets/images/my-meal-plan-index.jpg",
+    "heading": "My Meal Plan",
+    "paragraph": "Craft a personalized meal plan for your dietary needs",
+    "buttonText": "MY MEAL PLAN",
+    "buttonUrl": "/my-meal-plan"
+  },
+  {
+    "image": "/assets/images/healthy-food-index.jpg",
+    "heading": "Healthy Food",
+    "paragraph": "Taste the variety of healthy food that will keep you satisfied",
+    "buttonText": "HEALTHY FOOD",
+    "buttonUrl": "/healthy-food"
+  },
+  {
+    "image": "/assets/images/healthy-meals-index.jpg",
+    "heading": "Healthy Meals",
+    "paragraph": "Explore the vast amount of variety meals that will keep your taste buds wanting more",
+    "buttonText": "HEALTHY MEALS",
+    "buttonUrl": "/healthy-meals"
+  },
+  {
+    "image": "/assets/images/calorie-intake-calculator-index.jpg",
+    "heading": "Calorie Intake Tracker",
+    "paragraph": "Number crunch your way to achieving your fitness goals",
+    "buttonText": "CALORIE INTAKE TRACKER",
+    "buttonUrl": "/calorie-intake-tracker"
+  },
+  {
+    "image": "/assets/images/vitamins-index.jpg",
+    "heading": "Vitamins",
+    "paragraph": "Give yourself your daily boost of vitamin A, B, C, D, and more",
+    "buttonText": "VITAMINS",
+    "buttonUrl": "/vitamins"
+  }
+]

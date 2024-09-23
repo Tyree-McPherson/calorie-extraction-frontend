@@ -1,0 +1,20 @@
+<div class="skeleton">
+  <div class="container" *ngFor="let exercise of breathingExercises">
+    <div class="title-container">
+      <h2>{{ exercise.title }}</h2>
+    </div>
+    <div class="breathing-container">
+      <div
+        class="breathe-item-container"
+        *ngFor="let breathe of exercise.exercises"
+      >
+        <img
+          src="{{ routePrefix + breathe.image }}"
+          alt="{{ breathe.imageAlt }}"
+          loading="lazy"
+        />
+        <p>{{ breathe.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

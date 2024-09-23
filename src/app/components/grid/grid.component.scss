@@ -1,0 +1,18 @@
+.grid-container {
+  margin: auto;
+  max-width: 1200px;
+  padding: var(--spacingLarge);
+}
+
+.grid {
+  display: grid;
+  justify-items: center;
+  gap: var(--spacingLarge);
+}
+
+/* 700px. */
+@media (max-width: 43.75em) {
+  .grid-container {
+    padding: 0;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "my_routine": [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday"
+  ],
+  "my_meal_plan": [
+    "monday",
+    "tuesday",
+    "wednesday",
+    "thursday",
+    "friday",
+    "saturday",
+    "sunday"
+  ],
+  "my_goals": [
+    "goal_one",
+    "goal_two",
+    "goal_three",
+    "goal_four",
+    "goal_five"
+  ],
+  "profile": [
+    "height",
+    "weight",
+    "age",
+    "gender"
+  ]
+}

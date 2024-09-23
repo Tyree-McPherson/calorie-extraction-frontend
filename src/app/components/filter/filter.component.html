@@ -1,0 +1,15 @@
+<div class="filter-heading" (click)="toggleDropdown()">
+  <mat-icon aria-label="filter">filter_alt</mat-icon>
+  <h2>Filter</h2>
+</div>
+<div class="filter-dropdown" *ngIf="filterDropdown">
+  <h5
+    *ngFor="let dropdownItem of dropdownItems; let i = index"
+    (click)="dropdownSelected(dropdownItem, i)"
+    [id]="'filter-dropdown-item-' + i"
+    class="dropdown-item"
+  >
+    {{ dropdownItem }}
+  </h5>
+</div>
+<hr *ngIf="filterDropdown" />

@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Vitamin A",
+    "description": "Essential for maintaining healthy vision, skin, and immune function.",
+    "type": "Vision",
+    "image": "/assets/images/vitamins/vitamin-a.jpg",
+    "imageAlt": "A container of vitamin A",
+    "link": "https://www.amazon.ca/s?k=vitamin+a&crid=3JWJM3R2L42CM&sprefix=vitamin+a%2Caps%2C84&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B1 (Thiamine)",
+    "description": "Plays a key role in energy metabolism and nerve function.",
+    "type": "Energy",
+    "image": "/assets/images/vitamins/vitamin-b1.jpg",
+    "imageAlt": "A container of vitamin B1",
+    "link": "https://www.amazon.ca/s?k=vitamin+b1&crid=GFBW6QBCS3ZC&sprefix=vitamin+b1%2Caps%2C84&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B2 (Riboflavin)",
+    "description": "Important for energy production and skin health.",
+    "type": "Energy",
+    "image": "/assets/images/vitamins/vitamin-b2.jpg",
+    "imageAlt": "A container of vitamin B2",
+    "link": "https://www.amazon.ca/s?k=vitamin+b2&crid=1E6NQQHPPK2F&sprefix=vitamin+b2%2Caps%2C84&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B3 (Niacin)",
+    "description": "Supports energy metabolism and DNA repair.",
+    "type": "Energy",
+    "image": "/assets/images/vitamins/vitamin-b3.jpg",
+    "imageAlt": "A container of vitamin B3",
+    "link": "https://www.amazon.ca/s?k=vitamin+b3&crid=1UXA4OYSWEB03&sprefix=vitamin+b3%2Caps%2C82&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B5 (Pantothenic Acid)",
+    "description": "Necessary for the synthesis of coenzyme A and energy metabolism.",
+    "type": "Energy",
+    "image": "/assets/images/vitamins/vitamin-b5.jpg",
+    "imageAlt": "A container of vitamin B5",
+    "link": "https://www.amazon.ca/s?k=vitamin+b5&crid=36Y1NMK5DRTXK&sprefix=vitamin+b5%2Caps%2C211&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B6 (Pyridoxine)",
+    "description": "Crucial for brain development and the production of serotonin and norepinephrine.",
+    "type": "Recovery",
+    "image": "/assets/images/vitamins/vitamin-b6.jpg",
+    "imageAlt": "A container of vitamin B6",
+    "link": "https://www.amazon.ca/s?k=vitamin+b6&crid=36IQHON30EWKL&sprefix=vitamin+b6%2Caps%2C86&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B7 (Biotin)",
+    "description": "Supports healthy hair, skin, and nails, and is involved in carbohydrate, fat, and protein metabolism.",
+    "type": "Strength",
+    "image": "/assets/images/vitamins/vitamin-b7.jpg",
+    "imageAlt": "A container of vitamin B7",
+    "link": "https://www.amazon.ca/s?k=vitamin+b7&crid=1QK1SH6VGSTT9&sprefix=vitamin+b7%2Caps%2C80&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B9 (Folate)",
+    "description": "Vital for DNA synthesis and repair, and important during pregnancy for fetal development.",
+    "type": "Immunity",
+    "image": "/assets/images/vitamins/vitamin-b9.jpg",
+    "imageAlt": "A container of vitamin B9",
+    "link": "https://www.amazon.ca/s?k=vitamin+b9&crid=3W594CNVA1LYQ&sprefix=vitamin+b9%2Caps%2C107&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin B12 (Cobalamin)",
+    "description": "Essential for nerve function, red blood cell production, and DNA synthesis.",
+    "type": "Recovery",
+    "image": "/assets/images/vitamins/vitamin-b12.jpg",
+    "imageAlt": "A container of vitamin B12",
+    "link": "https://www.amazon.ca/s?k=vitamin+b12&crid=CY52J6RWMU0E&sprefix=vitamin+b12%2Caps%2C86&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin C",
+    "description": "Powerful antioxidant that supports immune function, skin health, and wound healing.",
+    "type": "Immunity",
+    "image": "/assets/images/vitamins/vitamin-c.jpg",
+    "imageAlt": "A container of vitamin C",
+    "link": "https://www.amazon.ca/s?k=vitamin+c&crid=2T3ZQNAD9OCAZ&sprefix=vitamin+c%2Caps%2C84&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin D",
+    "description": "Critical for bone health as it facilitates calcium absorption in the body.",
+    "type": "Bones",
+    "image": "/assets/images/vitamins/vitamin-d.jpg",
+    "imageAlt": "A container of vitamin D",
+    "link": "https://www.amazon.ca/s?k=vitamin+d&crid=33N1UBG9JDNZP&sprefix=vitamin+d%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin E",
+    "description": "An antioxidant that protects cells from damage and supports skin health.",
+    "type": "Strength",
+    "image": "/assets/images/vitamins/vitamin-e.jpg",
+    "imageAlt": "A container of vitamin E",
+    "link": "https://www.amazon.ca/s?k=vitamin+e&crid=7Q4Y6SNS8D21&sprefix=vitamin+e%2Caps%2C88&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin K",
+    "description": "Necessary for blood clotting and bone health.",
+    "type": "Bones",
+    "image": "/assets/images/vitamins/vitamin-k.jpg",
+    "imageAlt": "A container of vitamin K",
+    "link": "https://www.amazon.ca/s?k=vitamin+k&crid=2XHKGMOCCFVRQ&sprefix=vitamin+k%2Caps%2C85&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin A (Retinol)",
+    "description": "Supports vision, especially in low light, and is important for immune function.",
+    "type": "Vision",
+    "image": "/assets/images/vitamins/vitamin-a-retinol.jpg",
+    "imageAlt": "A container of vitamin A",
+    "link": "https://www.amazon.ca/s?k=vitamin+a+%28Retinol%29&crid=3MUCZSBRJTN5R&sprefix=vitamin+a+retinol+%2Caps%2C90&ref=nb_sb_noss_2"
+  },
+  {
+    "title": "Vitamin D2 (Ergocalciferol)",
+    "description": "Supports bone health by helping the body use calcium and phosphorus.",
+    "type": "Bones",
+    "image": "/assets/images/vitamins/vitamin-d2.jpg",
+    "imageAlt": "A container of vitamin D2",
+    "link": "https://www.amazon.ca/s?k=vitamin+d2&crid=2DFGW7UK89AXE&sprefix=vitamin+d2%2Caps%2C83&ref=nb_sb_noss_1"
+  },
+  {
+    "title": "Vitamin D3 (Cholecalciferol)",
+    "description": "The natural form of vitamin D, crucial for calcium absorption and bone health.",
+    "type": "Bones",
+    "image": "/assets/images/vitamins/vitamin-d3.jpg",
+    "imageAlt": "A container of vitamin D3",
+    "link": "https://www.amazon.ca/s?k=vitamin+d3&crid=1DSDISXOGYK67&sprefix=vitamin+d3%2Caps%2C83&ref=nb_sb_noss_1"
+  }
+]

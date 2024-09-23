@@ -1,0 +1,86 @@
+[
+  {
+    "image": "/assets/images/massages/aromatherapy-massage.jpg",
+    "imageAlt": "Person with oil in their left hand",
+    "title": "Aromatherapy massage",
+    "description": "These massages combine gentle pressure with essential oils",
+    "link": "https://www.healthline.com/health/types-of-massage#aromatherapy"
+  },
+  {
+    "image": "/assets/images/massages/deep-tissue-massage.jpg",
+    "imageAlt": "Massaging a person's back",
+    "title": "Deep tissue massage",
+    "description": "A massage therapist will use slow strokes and deep finger pressure to relieve tension from the deepest layers of tissue and muscles",
+    "link": "https://www.healthline.com/health/types-of-massage#deep-tissue"
+  },
+  {
+    "image": "/assets/images/massages/hot-stone-massage.jpg",
+    "imageAlt": "Hot stones on a person's back",
+    "title": "Hot stone massage",
+    "description": "Place hot stones on different areas on your body",
+    "link": "https://www.healthline.com/health/types-of-massage#hot-stone"
+  },
+  {
+    "image": "/assets/images/massages/swedish-massage.png",
+    "imageAlt": "Someone getting a massage and smiling",
+    "title": "Swedish massage",
+    "description": "The Swedish massage is performed to energize the body and improve overall health. This type of massage involves actions like percussion, kneading, vibration, tapping and rolling.",
+    "link": "https://www.healthline.com/health/types-of-massage#swedish"
+  },
+  {
+    "image": "/assets/images/massages/sports-massage.webp",
+    "imageAlt": "Massaging a calf",
+    "title": "Sports massage",
+    "description": "Whether you are an elite athlete, a weekend warrior, or someone embracing a new fitness journey, sports massage at Therapeutic Streams provides the tailored care your muscles crave.",
+    "link": "https://www.healthline.com/health/types-of-massage#sport"
+  },
+  {
+    "image": "/assets/images/massages/trigger-point-massage.png",
+    "imageAlt": "Woman doing a trigger point massage",
+    "title": "Trigger point massage",
+    "description": "Trigger points occur in the trapezius muscle. This is a very large back muscle that extends from below your shoulder blades, up to your shoulders, and then along the back of your neck.",
+    "link": "https://www.healthline.com/health/types-of-massage#trigger-point"
+  },
+  {
+    "image": "/assets/images/massages/reflexology.jpg",
+    "imageAlt": "Hand massage",
+    "title": "Reflexology",
+    "description": "Reflexology significantly decreased the anxiety of patients undergoing cardiovascular procedures compared with the control group",
+    "link": "https://www.healthline.com/health/types-of-massage#reflexology"
+  },
+  {
+    "image": "/assets/images/massages/shiatsu-massage.png",
+    "imageAlt": "Person getting a head massage",
+    "title": "Shiatsu massage",
+    "description": "While shiatsu translates as finger pressure, a shiatsu therapist may also use palms, elbows, and sometimes feet to apply pressure along energy lines or paths to relieve pain and tension in the body",
+    "link": "https://www.healthline.com/health/types-of-massage#shiatsu"
+  },
+  {
+    "image": "/assets/images/massages/thai-massage.png",
+    "imageAlt": "Person getting a Thai massage",
+    "title": "Thai massage",
+    "description": "Lie fully clothed on a mat on the ground while a practitioner uses stretching, pulling, and rocking techniques to relieve tension, promote relaxation, and improve flexibility and circulation",
+    "link": "https://www.healthline.com/health/types-of-massage#thai"
+  },
+  {
+    "image": "/assets/images/massages/chair-massage.png",
+    "imageAlt": "Person getting a chair massage",
+    "title": "Chair massage",
+    "description": "This massage focuses on quick massages that focuses on the back, shoulders, and the neck. Chair massage also helps relieve stress and promote relaxation.",
+    "link": "https://www.healthline.com/health/types-of-massage#chair"
+  },
+  {
+    "image": "/assets/images/massages/lymphatic-drainage-massage.png",
+    "imageAlt": "A person massaging their neck",
+    "title": "Lymphatic drainage massage",
+    "description": "Lymphatic drainage massage, is a specialized type of medical massage. It can help treat lymphedema, in which lymphatic fluid collects in certain areas of the body because it cannot drain away effectively.",
+    "link": "https://www.healthline.com/health/types-of-massage#lymphatic"
+  },
+  {
+    "image": "/assets/images/massages/abhyanga-massage.png",
+    "imageAlt": "A person massaging their left shoulder",
+    "title": "Abhyanga massage",
+    "description": "A type of oil massage that is warmed and gently massaged over the entire body. This massage focuses on nourishing the skin.",
+    "link": "https://www.healthline.com/health/types-of-massage#abhyanga"
+  }
+]
