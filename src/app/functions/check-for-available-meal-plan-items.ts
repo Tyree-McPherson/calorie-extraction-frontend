@@ -8,10 +8,16 @@
 export default function checkForAvailableMealPlanItems(
   meal: any
 ): string | false {
+
+  const orderedMeal: any = {
+    item_one: meal.item_one,
+    item_two: meal.item_two,
+    item_three: meal.item_three
+  };
   
-  for (const key in meal) {
-    if (meal[key] && meal[key]
-      .hasOwnProperty('name') && meal[key].name === null) {
+  for (const key in orderedMeal) {
+    if (orderedMeal[key] && orderedMeal[key]
+      .hasOwnProperty('name') && orderedMeal[key].name === null) {
         return key;
     };
   };

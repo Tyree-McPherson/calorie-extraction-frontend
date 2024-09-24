@@ -32,5 +32,7 @@
     <p>No meal plan on {{ meal.weekday }}</p>
   </ng-template>
   <mat-divider *ngIf="!isLast" />
-  <p class="text-center">Login to add a meal plan for all weekdays</p>
+  <p *ngIf="useLocalMealPlanData" class="text-center">
+    Login to add a meal plan for all weekdays
+  </p>
 </div>
