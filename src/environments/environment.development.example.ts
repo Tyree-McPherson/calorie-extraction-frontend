@@ -9,5 +9,6 @@ export const environment = {
   firebaseStorageBucket: "YOUR_DEVELOPMENT_FIREBASE_STORAGE_BUCKET",
   firebaseMessagingSenderId: "YOUR_DEVELOPMENT_FIREBASE_MESSAGING_SENDER_ID",
   firebaseAppId: "YOUR_DEVELOPMENT_FIREBASE_APP_ID",
-  firebaseMeasurementId: "YOUR_DEVELOPMENT_FIREBASE_MEASUREMENT_ID"
+  firebaseMeasurementId: "YOUR_DEVELOPMENT_FIREBASE_MEASUREMENT_ID",
+  routePrefix: ""
 };
