@@ -60,7 +60,17 @@ Run `npm run jest` to run the unit tests with Jest.
 
 Run `npm run typedoc` to generate documentation.
 
-### Serving the documentation in a browser
+## Serving the documentation in a browser
 
 Run `npm run serve-docs` to view the documentation in a browser. Then,
 open a browser and go to `localhost:8081`.
+
+## Deploy to Google Cloud Storage Bucket
+
+Run `npm run build` to build the project.
+
+Run `gsutil -m cp -r dist/frontend-2/* gs://<project-name>` to upload
+the build files to the Storage Bucket.
+
+Run `gsutil web set -m index.html -e index.html gs://<project-name>` to set the
+bucket as a website.
