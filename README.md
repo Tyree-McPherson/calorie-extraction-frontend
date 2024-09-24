@@ -67,10 +67,9 @@ open a browser and go to `localhost:8081`.
 
 ## Deploy to Google Cloud Storage Bucket
 
-Run `npm run build` to build the project.
-
-Run `gsutil -m cp -r dist/frontend-2/* gs://<project-name>` to upload
+1. Download the [Google Cloud CLI](https://cloud.google.com/sdk/docs/install)
+2. Run `npm run build` to build the project.
+3. Run `gsutil -m cp -r dist/frontend-2/* gs://<project-name>` to upload
 the build files to the Storage Bucket.
-
-Run `gsutil web set -m index.html -e index.html gs://<project-name>` to set the
+4. Run `gsutil web set -m index.html -e index.html gs://<project-name>` to set the
 bucket as a website.
